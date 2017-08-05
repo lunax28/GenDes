@@ -6,14 +6,15 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <top>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="457.0" prefWidth="605.0" BorderPane.alignment="CENTER">
          <children>
             <MenuBar>
               <menus>
@@ -34,27 +35,55 @@
                 </Menu>
               </menus>
             </MenuBar>
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox prefHeight="45.0" prefWidth="600.0">
                <children>
                   <Label text="UPC">
                      <HBox.margin>
-                        <Insets left="15.0" />
+                        <Insets left="15.0" top="5.0" />
                      </HBox.margin>
                   </Label>
                   <TextField fx:id="upcTextField" promptText="insert here the UPC...">
                      <HBox.margin>
-                        <Insets left="15.0" />
+                        <Insets left="53.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button mnemonicParsing="false" onAction="#checkApiArtists" text="GENERATE">
-                     <HBox.margin>
-                        <Insets left="15.0" />
-                     </HBox.margin>
-                  </Button>
                </children>
                <VBox.margin>
                   <Insets top="20.0" />
                </VBox.margin>
+            </HBox>
+            <HBox prefHeight="123.0" prefWidth="604.0">
+               <children>
+                  <Label text="Description">
+                     <HBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextArea fx:id="descriptionTextArea" prefHeight="166.0" prefWidth="468.0" promptText="Insert the video description here:">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </TextArea>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#checkApiArtists" text="GENERATE">
+               <VBox.margin>
+                  <Insets left="265.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+            <HBox prefHeight="203.0" prefWidth="605.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="46.0" text="Result:">
+                     <HBox.margin>
+                        <Insets left="15.0" top="55.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextArea fx:id="resultTextArea" prefHeight="141.0" prefWidth="470.0" promptText="The complete description will show up here:">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="30.0" top="45.0" />
+                     </HBox.margin>
+                  </TextArea>
+               </children>
             </HBox>
          </children>
       </VBox>
