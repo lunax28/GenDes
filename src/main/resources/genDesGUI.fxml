@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <top>
       <VBox prefHeight="457.0" prefWidth="605.0" BorderPane.alignment="CENTER">
          <children>
@@ -30,14 +30,14 @@
                 </Menu>
                 <Menu mnemonicParsing="false" text="Help">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="About" />
+                    <MenuItem mnemonicParsing="false" onAction="#aboutItemAction" text="About" />
                   </items>
                 </Menu>
               </menus>
             </MenuBar>
             <HBox prefHeight="45.0" prefWidth="600.0">
                <children>
-                  <Label text="UPC">
+                  <Label text="UPC:">
                      <HBox.margin>
                         <Insets left="15.0" top="5.0" />
                      </HBox.margin>
@@ -54,7 +54,7 @@
             </HBox>
             <HBox prefHeight="123.0" prefWidth="604.0">
                <children>
-                  <Label text="Description">
+                  <Label text="Description:">
                      <HBox.margin>
                         <Insets left="15.0" top="5.0" />
                      </HBox.margin>
@@ -78,7 +78,7 @@
                         <Insets left="15.0" top="55.0" />
                      </HBox.margin>
                   </Label>
-                  <TextArea fx:id="resultTextArea" prefHeight="141.0" prefWidth="470.0" promptText="The complete description will show up here:">
+                  <TextArea fx:id="resultTextArea" editable="false" prefHeight="141.0" prefWidth="470.0" promptText="The complete description will show up here:">
                      <HBox.margin>
                         <Insets bottom="20.0" left="30.0" top="45.0" />
                      </HBox.margin>

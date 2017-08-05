@@ -129,6 +129,17 @@ public class Controller {
     @FXML
     public void checkApiArtists() {
 
+        if(this.upcTextField.getText().isEmpty() && this.descriptionTextArea.getText().isEmpty()){
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Warning!");
+            alert.setContentText("Please, make sure you inserted a valid UPC and a video description");
+            alert.showAndWait();
+
+            return;
+
+
+        }
+
 
         iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
         String link = "";
@@ -232,9 +243,14 @@ public class Controller {
     }
 
 
-    public void testEmoji() {
+    public void aboutItemAction() {
 
-        System.out.println(EmojiUtils.getEmoji("blue_car").getEmoji());
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("GenDes v1.0");
+        alert.setHeaderText("GenDes v1.0\n");
+        //alert.setContentText("The results are saved in your .txt file!");
+
+        alert.showAndWait();
 
 
     }
