@@ -22,10 +22,10 @@ public class Controller {
     @FXML
     private Label sourceLabel;
 
-    @FXML
-    private File sourceFolderPath;
+    //@FXML
+    //private File sourceFolderPath;
 
-    private File logFile;
+    //private File logFile;
 
     @FXML
     private TextArea descriptionTextArea;
@@ -90,14 +90,15 @@ public class Controller {
             "Índia, China e Japão são três países com uma longa tradição de música para relaxamento e meditação. Neste canal, há tanto a música tradicional que a música reinterpretado segundo a tradição local do Oriente. Os instrumentos mais utilizados são flauta shakuhachi, hang drum, koto, sitar, guzheng e duduk para uma turnê completa no Extremo Oriente contra o stress, para uma experiência significativa e alegria.\n","►Musica para Dormir, Sonhar e Descansar◄\n" +
             "Musica para dormir e canções suaves com sons relaxantes para dormir profundamente. Algumas dessas canções têm sons e freqüências especiais para dormir e descansar toda a noite, como uma ajuda natural contra distúrbios do sono como insônia. Toda a nossa música para dormir ajuda a adormecer mais rápido e passar uma noite repousante e tranquila. Meditation Relax Club também criou alguns lista de reprodução para bebês e crianças com carrilhão.\n", "►Sons binaurais e ondas cerebrais α, β, γ, δ, θ◄\n" +
             "Ritmo binaural e tons isocrônico são sons especiais feitas em intervalos específicos de hertz. Aqui música com vibrações particulares para curar a alma eo espírito, com ondas delta para dormir, ondas gamma, alfa, theta e beta, cada um com um uso específico, por exemplo, para dormir, concentrar-se, relaxar, melhorar a estudar, meditar e libertar a mente. O mais famoso desses freqüências são a frequência de teoria musical e ressonância Schumann.\n","►Musica para estudar e concentrarse◄\n" +
-            "Uma boa combinação de ondas cerebrais como alfa e gama podem ajudar com concentração para a preparação de exames, com musica para estudar e aliviar o estresse durante a sessão de exame. A musica classica para estudar de Meditation Relax Club é usado para fazer lição de casa o para trabalhar no escritório.\n","Meditation Relax Club criou algumas lista de reprodução para spa e centro de beleza. Você também pode ouvir estas canções calmante em casa para um dia de spa com tratamentos de bem-estar. Nossa música suave é perfeita para sauna e spa para massagem terapêutica. Música do Oriente irá criar uma atmosfera perfeita para ayurveda, thai spa e massagens relaxantes.","►Musica Reiki◄\n" +
+            "Uma boa combinação de ondas cerebrais como alfa e gama podem ajudar com concentração para a preparação de exames, com musica para estudar e aliviar o estresse durante a sessão de exame. A musica classica para estudar de Meditation Relax Club é usado para fazer lição de casa o para trabalhar no escritório.\n","►Musica Spa para Massagens◄\n" +
+            "Meditation Relax Club criou algumas lista de reprodução para spa e centro de beleza. Você também pode ouvir estas canções calmante em casa para um dia de spa com tratamentos de bem-estar. Nossa música suave é perfeita para sauna e spa para massagem terapêutica. Música do Oriente irá criar uma atmosfera perfeita para ayurveda, thai spa e massagens relaxantes.\n","►Musica Reiki◄\n" +
             "Ouvir o nosso canal de música para meditação positiva para alcançar o poder do pensamento positivo e afirmação. A música reiki e a música de cura misturado com melodias edificantes e sons celestiais são para o equilíbrio da mente e vibrações zen. Importante também é a música chakra para curar os chakras do corpo humano com a meditação profunda.\n","►Musica para Exercicios de Yoga e Pilates◄\n" +
             "Com a colaboração do maior especialistas de yoga e pilates, criamos as canções perfeitas para essas disciplinas. As musicas relaxantes de yoga são para fazer exercícios, stretching de pilates e respiração natural. Essas músicas suaves também são projetados para saudação ao sol e yoga nidra para dormir, com a música da Índia com instrumentos asiáticos como a flauta de bambu indiana, sitar e guzheng chinesa e música de harpa.\n","►Musica Classica de férias◄\n" +
             "Quando chegam as férias, Meditação Relax Club va a criar a música tradicional para festas como musica de Natal, de Páscoa, Ação de Graças e Halloween, com musica instrumental popular e as melhores musicas tradicionais deste período.\n"));
 
     @FXML
     private List<String> itKeywords = new ArrayList<String>(Arrays.asList("►Meditazione e Mindfulness◄\n" +
-            "Musica di sottofondo strumentale per la meditazione. Questa musica è il sottofondo musicale ideale per la tua stanza della meditazione. Si ispira alla musica orientale asiatica, unendo suoni della natura come il canto degli uccellini o il rumore dell’acqua ad altri suoni new age per la concentrazione come le campane tibetane e i canti dei monaci tibetani. Può essere usata come musica ambient per le meditazioni guidate di Deepak Chopra e Osho.\n","Musica Rilassante◄\n" +
+            "Musica di sottofondo strumentale per la meditazione. Questa musica è il sottofondo musicale ideale per la tua stanza della meditazione. Si ispira alla musica orientale asiatica, unendo suoni della natura come il canto degli uccellini o il rumore dell’acqua ad altri suoni new age per la concentrazione come le campane tibetane e i canti dei monaci tibetani. Può essere usata come musica ambient per le meditazioni guidate di Deepak Chopra e Osho.\n","►Musica Rilassante◄\n" +
             "Il rilassamento è parte dell’esperienza di Meditation Relax Club con dei bellissimi video con immagini rilassanti ed una selezione di brani musicali pensati per il riposo assoluto, ispirati alla musica di Enya ed altri guru della musica new age. All’interno di queste musiche di sottofondo vengono utilizzati strumenti musicali quali l’arpa, il pianoforte classico e le note del flauto dolce, insieme all’impiego di strumenti orientali e suoni della natura per chi è alla ricerca di un momento di tranquillità, lontano dallo stress e dall’ansia. Nel nostro canale inoltre si possono ascoltare anche rilassamenti guidati di training autogeno per ritrovare la serenità interiore ed esteriore.\n","►Musica Zen Orientale◄\n" +
             "L’India, la Cina e il Giappone: questi Paesi Orientali vantano una lunga tradizione di musica in grado di generare un profondo senso di rilassamento e la giusta concentrazione necessaria per la meditazione. Il nostro canale di YouTube è in grado di regalarti sia musica tradizionale dall’Oriente che reinterpretazioni musicali della cultura locale utilizzando strumenti come il flauto shakuhachi, hang drum, koto, sitar, gu zheng e duduk.\n","►Musica per Dormire, Sognare e Riposarsi◄\n" +
             "Canzoni per addormentarsi e dormire profondamente e ninne nanne con suoni della natura e frequenze per stimolare il sonno profondo, curando problemi e disturbi legati al sonno come l’insonnia. Tutte le nostre musiche per dormire sono state create per addormentarsi più velocemente e trascorrere una notte tranquilla e rigenerante. Abbiamo, inoltre, utili playlist di musica di carillon per far addormentare i neonati e i bambini.\n","►Suoni Binaurali e Onde Cerebrali α, β, γ, δ, θ◄\n" +
@@ -124,7 +125,7 @@ public class Controller {
 
 
 
-
+    /*
     @FXML
     public void locateFile(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
@@ -137,6 +138,7 @@ public class Controller {
 
 
     }
+    */
 
     @FXML
     public void clearTextArea(){
@@ -208,23 +210,31 @@ public class Controller {
 
                 String albumUrl = jsonObjArr.get("collectionViewUrl").getAsString();
 
+                String idLink = albumUrl.substring(albumUrl.indexOf("id"),albumUrl.indexOf("?"));
+
+                System.out.println("idLink: " + idLink);
+
+                String shortlink = "https://itunes.apple.com/album/" + idLink;
+
                 System.out.println("ALBUM URL: " + albumUrl);
+
+                System.out.println("SHORT LINK: " + shortlink);
 
                 switch(this.choiceBoxLanguage.getValue()){
 
-                    case ("EN"): this.generateEnDescription(albumUrl);
+                    case ("EN"): this.generateEnDescription(shortlink);
                                 break;
 
-                    case ("ES"): this.generateEsDescription(albumUrl);
+                    case ("ES"): this.generateEsDescription(shortlink);
                                 break;
 
-                    case ("DE"): this.generateDeDescription(albumUrl);
+                    case ("DE"): this.generateDeDescription(shortlink);
                                 break;
 
                     case ("PT"): this.generatePtDescription(albumUrl);
                                 break;
 
-                    case ("IT"): this.generateItDescription(albumUrl);
+                    case ("IT"): this.generateItDescription(shortlink);
                                  break;
 
                 }
@@ -278,7 +288,7 @@ public class Controller {
 
         Random rand = new Random();
         while(list.size() > 7) {
-            System.out.println("this.deKeywords.size(): " + this.itKeywords.size());
+            System.out.println("this.itKeywords.size(): " + this.itKeywords.size());
             System.out.println("LIST: " + list);
             int index = rand.nextInt(list.size()-1);
             System.out.println("INDEX: " + index);
@@ -325,7 +335,7 @@ public class Controller {
 
         Random rand = new Random();
         while(list.size() > 7) {
-            System.out.println("this.deKeywords.size(): " + this.ptKeywords.size());
+            System.out.println("this.ptKeywords.size(): " + this.ptKeywords.size());
             System.out.println("LIST: " + list);
             int index = rand.nextInt(list.size()-1);
             System.out.println("INDEX: " + index);
