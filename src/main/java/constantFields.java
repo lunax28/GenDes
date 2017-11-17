@@ -87,7 +87,7 @@ public enum constantFields {
 
     DE_FIRST_SENTENCE ("✅ Volles Album auf iTunes & AppleMusic: "),
 
-    DE_SECOND_SENTENCE ("✅ MRC community beitreten: "),
+    DE_SECOND_SENTENCE ("✅ MRC community beitreten: http://meditationrelaxclub.com/"),
 
     DE_TOP_DESCRIPTION (" \uD83D\uDC4D Soziale Netzwerke: \n" +
             "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -132,7 +132,7 @@ public enum constantFields {
 
     PT_FIRST_SENTENCE ("✅ Album completo no iTunes & AppleMusic: "),
 
-    PT_SECOND_SENTENCE ("✅ Faça parte da comunidade MRC: "),
+    PT_SECOND_SENTENCE ("✅ Faça parte da comunidade MRC: http://meditationrelaxclub.com/"),
 
     PT_TOP_DESCRIPTION (" \uD83D\uDC4D Conexões Social:\n" +
             "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -177,7 +177,7 @@ public enum constantFields {
 
     IT_FIRST_SENTENCE("✅ Album Completo su iTunes & AppleMusic: "),
 
-    IT_SECOND_SENTENCE("✅ Unisciti alla community di MRC: "),
+    IT_SECOND_SENTENCE("✅ Unisciti alla community di MRC: http://meditationrelaxclub.com/"),
 
     IT_TOP_DESCRIPTION (" \uD83D\uDC4D Connessioni Social: \n" +
             "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +

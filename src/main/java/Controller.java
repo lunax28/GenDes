@@ -96,6 +96,7 @@ public class Controller {
             "Com a colaboração do maior especialistas de yoga e pilates, criamos as canções perfeitas para essas disciplinas. As musicas relaxantes de yoga são para fazer exercícios, stretching de pilates e respiração natural. Essas músicas suaves também são projetados para saudação ao sol e yoga nidra para dormir, com a música da Índia com instrumentos asiáticos como a flauta de bambu indiana, sitar e guzheng chinesa e música de harpa.\n","►Musica Classica de férias◄\n" +
             "Quando chegam as férias, Meditação Relax Club va a criar a música tradicional para festas como musica de Natal, de Páscoa, Ação de Graças e Halloween, com musica instrumental popular e as melhores musicas tradicionais deste período.\n"));
 
+
     @FXML
     private List<String> itKeywords = new ArrayList<String>(Arrays.asList("►Meditazione e Mindfulness◄\n" +
             "Musica di sottofondo strumentale per la meditazione. Questa musica è il sottofondo musicale ideale per la tua stanza della meditazione. Si ispira alla musica orientale asiatica, unendo suoni della natura come il canto degli uccellini o il rumore dell’acqua ad altri suoni new age per la concentrazione come le campane tibetane e i canti dei monaci tibetani. Può essere usata come musica ambient per le meditazioni guidate di Deepak Chopra e Osho.\n","►Musica Rilassante◄\n" +
@@ -171,8 +172,8 @@ public class Controller {
         String tmp = "";
         String tmpFormat = "";
 
-        BufferedWriter bw = null;
-        FileWriter fw = null;
+        //BufferedWriter bw = null;
+        //FileWriter fw = null;
 
         //this.logFile = new File(this.sourceFolderPath + "/UpcChecker.txt");
 
@@ -210,7 +211,7 @@ public class Controller {
 
                 String albumUrl = jsonObjArr.get("collectionViewUrl").getAsString();
 
-                String idLink = albumUrl.substring(albumUrl.indexOf("id"),albumUrl.indexOf("?"));
+                /*String idLink = albumUrl.substring(albumUrl.indexOf("id"),albumUrl.indexOf("?"));
 
                 System.out.println("idLink: " + idLink);
 
@@ -218,23 +219,23 @@ public class Controller {
 
                 System.out.println("ALBUM URL: " + albumUrl);
 
-                System.out.println("SHORT LINK: " + shortlink);
+                System.out.println("SHORT LINK: " + shortlink);*/
 
                 switch(this.choiceBoxLanguage.getValue()){
 
-                    case ("EN"): this.generateEnDescription(shortlink);
+                    case ("EN"): this.generateEnDescription(albumUrl);
                                 break;
 
-                    case ("ES"): this.generateEsDescription(shortlink);
+                    case ("ES"): this.generateEsDescription(albumUrl);
                                 break;
 
-                    case ("DE"): this.generateDeDescription(shortlink);
+                    case ("DE"): this.generateDeDescription(albumUrl);
                                 break;
 
                     case ("PT"): this.generatePtDescription(albumUrl);
                                 break;
 
-                    case ("IT"): this.generateItDescription(shortlink);
+                    case ("IT"): this.generateItDescription(albumUrl);
                                  break;
 
                 }
@@ -510,8 +511,10 @@ public class Controller {
     public void aboutItemAction() {
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("GenDes v1.0");
-        alert.setHeaderText("GenDes v1.0\n");
+        alert.setTitle("GenDes v1.2");
+        alert.setHeaderText("GenDes v1.2\n");
+        alert.setContentText("Changelog:\n" +
+                "Reverted to using collectionViewUrl.");
         //alert.setContentText("The results are saved in your .txt file!");
 
         alert.showAndWait();
