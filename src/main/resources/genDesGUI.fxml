@@ -7,17 +7,19 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <top>
-      <VBox prefHeight="457.0" prefWidth="605.0" BorderPane.alignment="CENTER">
+      <VBox>
          <children>
-            <MenuBar>
+            <MenuBar VBox.vgrow="ALWAYS">
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
@@ -36,62 +38,90 @@
                 </Menu>
               </menus>
             </MenuBar>
-            <HBox prefHeight="45.0" prefWidth="600.0">
+            <HBox prefHeight="45.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Label text="UPC:">
+                  <Label prefHeight="46.0" prefWidth="32.0" text="UPC:">
                      <HBox.margin>
-                        <Insets left="15.0" top="5.0" />
+                        <Insets />
                      </HBox.margin>
                   </Label>
-                  <TextField fx:id="upcTextField" promptText="insert here the UPC...">
+                  <TextField fx:id="upcTextField" promptText="Insert the UPC here:">
                      <HBox.margin>
-                        <Insets left="53.0" />
+                        <Insets left="55.0" top="8.0" />
                      </HBox.margin>
                   </TextField>
-                  <ChoiceBox fx:id="choiceBoxLanguage" prefHeight="27.0" prefWidth="60.0">
+                  <Region HBox.hgrow="NEVER">
                      <HBox.margin>
-                        <Insets left="236.0" />
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Region>
+                  <ChoiceBox fx:id="choiceBoxLanguage" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="8.0" />
                      </HBox.margin>
                   </ChoiceBox>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button fx:id="generateButton" mnemonicParsing="false" onAction="#checkApiArtists" text="GENERATE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="180.0" top="8.0" />
+                     </HBox.margin>
+                  </Button>
                </children>
                <VBox.margin>
-                  <Insets top="20.0" />
+                  <Insets left="20.0" right="40.0" top="20.0" />
                </VBox.margin>
             </HBox>
-            <HBox prefHeight="123.0" prefWidth="604.0">
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <children>
+            <HBox VBox.vgrow="NEVER">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
                <children>
-                  <Label text="Description:">
+                  <Label prefWidth="87.0" text="Description:" />
+                  <TextArea fx:id="descriptionTextArea" promptText="Write your video description here:" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets left="15.0" top="5.0" />
-                     </HBox.margin>
-                  </Label>
-                  <TextArea fx:id="descriptionTextArea" prefHeight="118.0" prefWidth="459.0" promptText="Insert the video description here:">
-                     <HBox.margin>
-                        <Insets left="15.0" />
+                        <Insets bottom="20.0" right="20.0" />
                      </HBox.margin>
                   </TextArea>
                </children>
             </HBox>
-            <Button mnemonicParsing="false" onAction="#checkApiArtists" text="GENERATE">
+            <HBox VBox.vgrow="ALWAYS">
                <VBox.margin>
-                  <Insets left="265.0" top="25.0" />
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
-            </Button>
-            <HBox prefHeight="203.0" prefWidth="605.0">
                <children>
-                  <Label prefHeight="17.0" prefWidth="46.0" text="Result:">
+                  <Label text="Result:" />
+                  <TextArea fx:id="resultTextArea" promptText="The description will show up here:" HBox.hgrow="ALWAYS">
                      <HBox.margin>
-                        <Insets left="15.0" top="55.0" />
-                     </HBox.margin>
-                  </Label>
-                  <TextArea fx:id="resultTextArea" editable="false" prefHeight="141.0" prefWidth="470.0" promptText="The complete description will show up here:">
-                     <HBox.margin>
-                        <Insets bottom="20.0" left="30.0" top="45.0" />
+                        <Insets bottom="20.0" left="43.0" right="20.0" />
                      </HBox.margin>
                   </TextArea>
                </children>
             </HBox>
          </children>
       </VBox>
-   </top>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Progress:" />
+            <ProgressBar fx:id="progressBar" prefHeight="20.0" prefWidth="270.0" progress="0.0">
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+            </ProgressBar>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
 </BorderPane>

@@ -17,7 +17,7 @@ public class Main extends Application {
         window = primaryStage;
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("genDesGUI.fxml"));
         window.setTitle("GenDes");
-        window.setScene(new Scene(root, 600, 500));
+        window.setScene(new Scene(root));
         window.show();
     }
 

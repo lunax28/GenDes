@@ -1,3 +1,5 @@
+package com.equilibriummusicgroup.genDes;
+
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import javafx.scene.control.Alert;

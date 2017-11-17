@@ -1,3 +1,5 @@
+package com.equilibriummusicgroup.genDes;
+
 public enum constantFields {
 
     EN_FIRST_SENTENCE("✅ Full album on iTunes & AppleMusic: "),
