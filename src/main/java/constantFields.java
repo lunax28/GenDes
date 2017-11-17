@@ -229,9 +229,4 @@ public enum constantFields {
         return this.field;
     }
 
-
-
-
-
-
 }
