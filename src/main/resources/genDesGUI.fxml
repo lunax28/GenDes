@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GenDesController">
    <top>
       <VBox>
          <children>
@@ -61,7 +61,7 @@
                      </HBox.margin>
                   </ChoiceBox>
                   <Region HBox.hgrow="ALWAYS" />
-                  <Button fx:id="generateButton" mnemonicParsing="false" onAction="#checkApiArtists" text="GENERATE" HBox.hgrow="ALWAYS">
+                  <Button fx:id="generateButton" mnemonicParsing="false" onAction="#doGenerateDescription" text="GENERATE" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="180.0" top="8.0" />
                      </HBox.margin>

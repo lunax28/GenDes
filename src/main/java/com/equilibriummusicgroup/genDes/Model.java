@@ -1,12 +1,26 @@
 package com.equilibriummusicgroup.genDes;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class Model {
+
+    private String language;
+
+    private String inputDescription;
+
+
+    public Model(String language, String inputDescription){
+        this.language = language;
+        this.inputDescription = inputDescription;
+    }
 
     @FXML
     private List<String> enKeywords = new ArrayList<String>(Arrays.asList("►Meditation and Mindfulness Practice◄\n" +
@@ -85,4 +99,295 @@ public class Model {
             "Con l’aiuto dei massimi esperti nel campo dello yoga e del pilates abbiamo creato delle musiche yoga ideali per queste due discipline. Questa musica per il benessere è in grado di agevolare lo stretching, gli esercizi di respirazione e di rilassamento, tra i quali il saluto al sole e lo yoga nidra per dormire. Influenzata dalla musica indiana, contiene strumenti asiatici come il flauto indiano di bambù e il sitar, e dalla musica cinese con il guzheng e l’arpa.\n", "►Musica Classica e Tradizionale per le Festività◄\n" +
             "Quando arriva un certo periodo dell’anno, Meditation Relax Club è in prima linea per ricreare la giusta atmosfera per feste e celebrazioni come il Natale, la Pasqua, il Ringraziamento, Halloween e molte altre, producendo le colonne sonore con musiche tradizionali, classiche, folk e rivisitazioni dei grandi classici che accompagneranno questi importanti avvenimenti.\n"));
 
+
+
+
+    public String getResult(String link){
+        String finalDescription = "";
+
+        iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
+
+        JsonObject json = apiClass.getJson(link);
+
+        if (json == null) {
+            return null;
+        }
+
+        String albumURL = parseJson(json);
+
+        if(!albumURL.isEmpty()){
+
+            finalDescription = generateDescription(albumURL) ;
+
+        }
+
+        return finalDescription;
+
+    }
+
+
+    private String parseJson(JsonObject json){
+
+        String albumURL = "";
+
+        int result = json.get("resultCount").getAsInt();
+
+        System.out.println("APIGUI JSON: " + json.toString());
+        System.out.println("RESULTCOUNT: " + result);
+
+        if (result > 0) {
+
+            JsonArray jArray = json.get("results").getAsJsonArray();
+
+            JsonObject jsonObjArr = jArray.get(0).getAsJsonObject();
+
+            albumURL = jsonObjArr.get("collectionViewUrl").getAsString();
+
+
+        } else {
+
+            return null;
+
+        }
+
+        return albumURL;
+    }
+
+    private String generateDescription(String albumUrl) {
+
+        String des = "";
+        StringBuilder builder;
+        Random rand;
+        ArrayList<Integer> list;
+
+        switch (this.language) {
+
+            case ("EN"):
+                builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
+                builder.append(albumUrl);
+
+                builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(constantFields.EN_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+                list = new ArrayList<Integer>(this.enKeywords.size());
+                for (int i = 1; i <= this.enKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                System.out.println("LIST: " + list);
+
+
+                rand = new Random();
+                while (list.size() > 7) {
+                    System.out.println("this.enKeywords.size(): " + this.enKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(this.enKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                System.out.println("AFTER WHILE LOOP LIST: " + list);
+
+                list = new ArrayList<Integer>(this.enKeywords.size());
+                for (int i = 1; i <= this.enKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+
+                builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+                break;
+
+            case ("ES"):
+                builder = new StringBuilder(constantFields.ES_FIRST_SENTENCE.getField());
+                builder.append(albumUrl);
+
+                builder.append("\n" + constantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(constantFields.ES_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+
+                list = new ArrayList<Integer>(this.enKeywords.size());
+                for (int i = 1; i <= this.enKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                rand = new Random();
+                while (list.size() > 7) {
+                    System.out.println("this.esKeywords.size(): " + this.esKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(this.esKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                list = new ArrayList<Integer>(this.esKeywords.size());
+                for (int i = 1; i <= this.esKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+
+                builder.append("\n\n");
+
+                builder.append(constantFields.ES_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+
+                break;
+
+            case ("DE"):
+
+                builder = new StringBuilder(constantFields.DE_FIRST_SENTENCE.getField());
+                builder.append(albumUrl);
+
+                builder.append("\n" + constantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(constantFields.DE_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+
+                list = new ArrayList<Integer>(this.deKeywords.size());
+                for (int i = 1; i <= this.deKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                rand = new Random();
+                while (list.size() > 7) {
+                    System.out.println("this.deKeywords.size(): " + this.deKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(this.deKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                list = new ArrayList<Integer>(this.deKeywords.size());
+                for (int i = 1; i <= this.deKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+
+                builder.append("\n\n");
+
+                builder.append(constantFields.DE_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+
+                break;
+
+            case ("PT"):
+                builder = new StringBuilder(constantFields.PT_FIRST_SENTENCE.getField());
+                builder.append(albumUrl);
+
+                builder.append("\n" + constantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(constantFields.PT_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+                list = new ArrayList<Integer>(this.ptKeywords.size());
+                for (int i = 1; i <= this.ptKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                rand = new Random();
+                while (list.size() > 7) {
+                    System.out.println("this.ptKeywords.size(): " + this.ptKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(this.ptKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                list = new ArrayList<Integer>(this.ptKeywords.size());
+                for (int i = 1; i <= this.ptKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+
+                builder.append("\n\n");
+
+                builder.append(constantFields.PT_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+
+                break;
+
+            case ("IT"):
+                builder = new StringBuilder(constantFields.IT_FIRST_SENTENCE.getField());
+                builder.append(albumUrl);
+
+                builder.append("\n" + constantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(constantFields.IT_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+
+                list = new ArrayList<Integer>(this.itKeywords.size());
+                for (int i = 1; i <= this.itKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                rand = new Random();
+                while (list.size() > 7) {
+                    System.out.println("this.itKeywords.size(): " + this.itKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(this.itKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                list = new ArrayList<Integer>(this.itKeywords.size());
+                for (int i = 1; i <= this.itKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+
+                builder.append("\n\n");
+
+                builder.append(constantFields.IT_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+                break;
+
+        }
+
+        return des;
+
+
+
+
+    }
 }

@@ -1,3 +1,4 @@
+import com.equilibriummusicgroup.genDes.Model;
 import com.equilibriummusicgroup.genDes.constantFields;
 import com.equilibriummusicgroup.genDes.iTunesApiQueryUtils;
 import com.google.gson.JsonArray;
@@ -125,30 +126,29 @@ public class Controller {
 
 
     @FXML
-    public void checkApiArtists() {
+    public void doGenerateDescription() {
 
-        if (this.upcTextField.getText().isEmpty() && this.descriptionTextArea.getText().isEmpty()) {
+        if (this.upcTextField.getText().isEmpty() || this.descriptionTextArea.getText().isEmpty()) {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Warning!");
             alert.setContentText("Please, make sure you inserted a valid UPC and a video description");
             alert.showAndWait();
 
             return;
-
-
         }
 
 
+
+
+
         iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
-        String link = "";
+
+
 
         Scanner scanner = null;
-        String tmp = "";
-        String tmpFormat = "";
-
-        tmp = upcTextField.getText();
-        tmpFormat = tmp.trim();
-        link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
+        String tmp = upcTextField.getText();
+        String tmpFormat = tmp.trim();
+        String link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
         System.out.println("LINK: " + link);
 
         JsonObject json = apiClass.getJson(link);
@@ -431,6 +431,8 @@ public class Controller {
             builder.append(this.enKeywords.get(list.remove(index)));
             builder.append("\n");
         }
+
+        System.out.println("AFTER WHILE LOOP LIST: " + list);
 
         list = new ArrayList<Integer>(this.enKeywords.size());
         for (int i = 1; i <= this.enKeywords.size(); i++) {
