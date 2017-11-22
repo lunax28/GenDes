@@ -16,8 +16,10 @@ public class Model {
 
     private String inputDescription;
 
+    private String albumURL;
 
-    public Model(String language, String inputDescription){
+
+    public Model(String language, String inputDescription) {
         this.language = language;
         this.inputDescription = inputDescription;
     }
@@ -100,11 +102,9 @@ public class Model {
             "Quando arriva un certo periodo dell’anno, Meditation Relax Club è in prima linea per ricreare la giusta atmosfera per feste e celebrazioni come il Natale, la Pasqua, il Ringraziamento, Halloween e molte altre, producendo le colonne sonore con musiche tradizionali, classiche, folk e rivisitazioni dei grandi classici che accompagneranno questi importanti avvenimenti.\n"));
 
 
-
-
-    public String getResult(String link){
+    public String getResult(String link) throws InterruptedException, CustomException {
+        Thread.sleep(2000);
         String finalDescription = "";
-
         iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
 
         JsonObject json = apiClass.getJson(link);
@@ -113,11 +113,16 @@ public class Model {
             return null;
         }
 
-        String albumURL = parseJson(json);
+        this.albumURL = parseJson(json);
 
-        if(!albumURL.isEmpty()){
+        if(albumURL == null){
+            throw new CustomException("No Albums associated with that UPC!");
 
-            finalDescription = generateDescription(albumURL) ;
+        }
+
+        if (!albumURL.isEmpty()) {
+
+            finalDescription = generateDescription();
 
         }
 
@@ -126,11 +131,19 @@ public class Model {
     }
 
 
-    private String parseJson(JsonObject json){
+    private String parseJson(JsonObject json) throws CustomException {
 
         String albumURL = "";
 
-        int result = json.get("resultCount").getAsInt();
+        int result;
+
+        if(checkNode(json, "resultCount")){
+            result = json.get("resultCount").getAsInt();
+        } else {
+            throw new CustomException("No resultCount field!");
+        }
+
+ //       int result = json.get("resultCount").getAsInt();
 
         System.out.println("APIGUI JSON: " + json.toString());
         System.out.println("RESULTCOUNT: " + result);
@@ -153,7 +166,7 @@ public class Model {
         return albumURL;
     }
 
-    private String generateDescription(String albumUrl) {
+    private String generateDescription() {
 
         String des = "";
         StringBuilder builder;
@@ -164,7 +177,7 @@ public class Model {
 
             case ("EN"):
                 builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
-                builder.append(albumUrl);
+                builder.append(this.albumURL);
 
                 builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
@@ -204,12 +217,12 @@ public class Model {
 
                 System.out.println(builder);
 
-                des = builder.toString();
+                des = testGenerateDescription();
                 break;
 
             case ("ES"):
                 builder = new StringBuilder(constantFields.ES_FIRST_SENTENCE.getField());
-                builder.append(albumUrl);
+                builder.append(this.albumURL);
 
                 builder.append("\n" + constantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
 
@@ -254,7 +267,7 @@ public class Model {
             case ("DE"):
 
                 builder = new StringBuilder(constantFields.DE_FIRST_SENTENCE.getField());
-                builder.append(albumUrl);
+                builder.append(this.albumURL);
 
                 builder.append("\n" + constantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
 
@@ -298,7 +311,7 @@ public class Model {
 
             case ("PT"):
                 builder = new StringBuilder(constantFields.PT_FIRST_SENTENCE.getField());
-                builder.append(albumUrl);
+                builder.append(this.albumURL);
 
                 builder.append("\n" + constantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
 
@@ -341,7 +354,7 @@ public class Model {
 
             case ("IT"):
                 builder = new StringBuilder(constantFields.IT_FIRST_SENTENCE.getField());
-                builder.append(albumUrl);
+                builder.append(this.albumURL);
 
                 builder.append("\n" + constantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
 
@@ -385,9 +398,67 @@ public class Model {
         }
 
         return des;
+    }
 
 
+    private String testGenerateDescription() {
+
+        StringBuilder builder;
+        Random rand;
+        ArrayList<Integer> list;
+
+        builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
+        builder.append(this.albumURL);
+
+        builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+
+        builder.append(this.inputDescription + "\n\n");
+
+        builder.append(constantFields.EN_TOP_DESCRIPTION.getField());
+
+        builder.append("\n\n");
+
+        list = new ArrayList<Integer>(this.enKeywords.size());
+        for (int i = 1; i <= this.enKeywords.size(); i++) {
+            list.add(i);
+        }
+
+        System.out.println("LIST: " + list);
 
 
+        rand = new Random();
+        while (list.size() > 7) {
+            System.out.println("this.enKeywords.size(): " + this.enKeywords.size());
+            System.out.println("LIST: " + list);
+            int index = rand.nextInt(list.size() - 1);
+            System.out.println("INDEX: " + index);
+            builder.append(this.enKeywords.get(list.remove(index)));
+            builder.append("\n");
+        }
+
+        System.out.println("AFTER WHILE LOOP LIST: " + list);
+
+        list = new ArrayList<Integer>(this.enKeywords.size());
+        for (int i = 1; i <= this.enKeywords.size(); i++) {
+            list.add(i);
+        }
+
+
+        builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
+
+        System.out.println(builder);
+
+        return builder.toString();
+    }
+
+    /**
+     * Helper method to check whether the json retrieved has the field passed as a parameter the <code>jsonResponse</code> from the <code>com.equilibriummusicgroup.AMCharts.model.JsonQueryUtils</code>class.
+     *
+     * @param gson the json object retrieved
+     * @param key  the key against which the check is made
+     * @return Boolean
+     */
+    private Boolean checkNode(JsonObject gson, String key) {
+        return gson.has(key);
     }
 }
