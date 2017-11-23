@@ -3,8 +3,6 @@ package com.equilibriummusicgroup.genDes;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -103,7 +101,7 @@ public class Model {
 
 
     public String getResult(String link) throws InterruptedException, CustomException {
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         String finalDescription = "";
         iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
 
@@ -130,7 +128,12 @@ public class Model {
 
     }
 
-
+    /**
+     * Method that parses the json retrieved from <code>getResult</code> and returns the album URL
+     *
+     * @param json the json object retrieved from getResult
+     * @return String the album URL
+     */
     private String parseJson(JsonObject json) throws CustomException {
 
         String albumURL = "";
@@ -166,6 +169,11 @@ public class Model {
         return albumURL;
     }
 
+    /**
+     * Method that generates the description based on <code>this.language</code>
+     *
+     * @return String with the complete description
+     */
     private String generateDescription() {
 
         String des = "";
@@ -187,6 +195,7 @@ public class Model {
 
                 builder.append("\n\n");
 
+                //I build a list of integers of size this.enKeywords
                 list = new ArrayList<Integer>(this.enKeywords.size());
                 for (int i = 1; i <= this.enKeywords.size(); i++) {
                     list.add(i);
@@ -194,7 +203,8 @@ public class Model {
 
                 System.out.println("LIST: " + list);
 
-
+                //While the list that I've just built is greater than 7, I proceed to pick a random int between 0 and list.size()-1 and
+                //remove from list the index equals to that randomly picked int.
                 rand = new Random();
                 while (list.size() > 7) {
                     System.out.println("this.enKeywords.size(): " + this.enKeywords.size());
@@ -207,10 +217,10 @@ public class Model {
 
                 System.out.println("AFTER WHILE LOOP LIST: " + list);
 
-                list = new ArrayList<Integer>(this.enKeywords.size());
+/*                list = new ArrayList<Integer>(this.enKeywords.size());
                 for (int i = 1; i <= this.enKeywords.size(); i++) {
                     list.add(i);
-                }
+                }*/
 
 
                 builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
@@ -248,10 +258,10 @@ public class Model {
                     builder.append("\n");
                 }
 
-                list = new ArrayList<Integer>(this.esKeywords.size());
+/*                list = new ArrayList<Integer>(this.esKeywords.size());
                 for (int i = 1; i <= this.esKeywords.size(); i++) {
                     list.add(i);
-                }
+                }*/
 
 
                 builder.append("\n\n");
@@ -293,10 +303,10 @@ public class Model {
                     builder.append("\n");
                 }
 
-                list = new ArrayList<Integer>(this.deKeywords.size());
+/*                list = new ArrayList<Integer>(this.deKeywords.size());
                 for (int i = 1; i <= this.deKeywords.size(); i++) {
                     list.add(i);
-                }
+                }*/
 
 
                 builder.append("\n\n");
@@ -335,11 +345,11 @@ public class Model {
                     builder.append(this.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
-
+/*
                 list = new ArrayList<Integer>(this.ptKeywords.size());
                 for (int i = 1; i <= this.ptKeywords.size(); i++) {
                     list.add(i);
-                }
+                }*/
 
 
                 builder.append("\n\n");
@@ -380,10 +390,10 @@ public class Model {
                     builder.append("\n");
                 }
 
-                list = new ArrayList<Integer>(this.itKeywords.size());
+/*                list = new ArrayList<Integer>(this.itKeywords.size());
                 for (int i = 1; i <= this.itKeywords.size(); i++) {
                     list.add(i);
-                }
+                }*/
 
 
                 builder.append("\n\n");

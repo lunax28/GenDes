@@ -5,7 +5,6 @@
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 import com.equilibriummusicgroup.genDes.Model;
@@ -17,6 +16,8 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.input.Clipboard;
+import javafx.scene.input.ClipboardContent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
 
@@ -33,7 +34,8 @@ public class GenDesController {
 
     @FXML
     private ChoiceBox<String> choiceBoxLanguage;
-    ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT");
+
+    private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT");
 
     @FXML // fx:id="generateButton"
     private Button generateButton; // Value injected by FXMLLoader
@@ -48,10 +50,20 @@ public class GenDesController {
     private ProgressBar progressBar; // Value injected by FXMLLoader
 
     @FXML
-    void aboutItemAction(ActionEvent event) {
+    void doCopyAll(ActionEvent event) {
+        final Clipboard clipboard = Clipboard.getSystemClipboard();
+        final ClipboardContent content = new ClipboardContent();
+        content.putString(this.resultTextArea.getText());
+        clipboard.setContent(content);
 
     }
 
+
+    /**
+     * Method that builds the youtube description with the album url associated with a specific UPC.
+     *
+     * @param event the event object passed when clicking on Generate
+     */
     @FXML
     void doGenerateDescription(ActionEvent event) {
 
@@ -60,7 +72,6 @@ public class GenDesController {
             alert.setTitle("Warning!");
             alert.setContentText("Please, make sure you inserted a valid UPC and a video description");
             alert.showAndWait();
-
             return;
         }
 
@@ -71,10 +82,7 @@ public class GenDesController {
 
         Model model = new Model(this.choiceBoxLanguage.getValue(), this.descriptionTextArea.getText());
 
-
         Task<String> task = new Task<String>() {
-
-
             @Override
             protected String call() throws Exception {
                 updateProgress(-1, -1);
@@ -88,11 +96,9 @@ public class GenDesController {
             @Override
             public void handle(WorkerStateEvent event) {
                 resultTextArea.setText(task.getValue());
-
             }
         });
 
-//8033772892964
         task.setOnFailed(new EventHandler<WorkerStateEvent>() {
             @Override
             public void handle(WorkerStateEvent event) {
@@ -146,7 +152,6 @@ public class GenDesController {
         // Set expandable Exception into the dialog pane.
         alert.getDialogPane().setExpandableContent(expContent);
         alert.showAndWait();
-
     }
 
     @FXML
@@ -163,24 +168,20 @@ public class GenDesController {
 
     }
 
-    public void aboutItemAction() {
-
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("GenDes v1.3");
-        alert.setHeaderText("GenDes v1.3\n");
-        alert.setContentText("Changelog:\n" +
-                "Implementing concurrency");
-
-        alert.showAndWait();
-
-
+    @FXML
+    public void clearTextArea() {
+        this.upcTextField.clear();
     }
 
     @FXML
-    public void clearTextArea() {
+    void aboutItemAction(ActionEvent event) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("GenDes v1.4");
+        alert.setHeaderText("GenDes v1.4\n");
+        alert.setContentText("Changelog:\n" +
+                "Added concurrency");
 
-        this.upcTextField.clear();
-
+        alert.showAndWait();
 
     }
 }

@@ -14,10 +14,7 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-/**
- *
- * @author albus
- */
+
 public class iTunesApiQueryUtils {
 
 
@@ -76,15 +73,5 @@ public class iTunesApiQueryUtils {
         return jsonObject;
 
     }
-
-/*
-    static class CustomException extends Exception
-    {
-        public CustomException(String message)
-        {
-            super(message);
-        }
-    }
-*/
 
 }
