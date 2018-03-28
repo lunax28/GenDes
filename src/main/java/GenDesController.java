@@ -37,6 +37,11 @@ public class GenDesController {
 
     private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT");
 
+    @FXML
+    private ChoiceBox<String> choiceBoxChannel;
+
+    private ObservableList<String> obsListChannel = FXCollections.observableArrayList("MRC", "Buddha", "Sleep");
+
     @FXML // fx:id="generateButton"
     private Button generateButton; // Value injected by FXMLLoader
 
@@ -49,13 +54,19 @@ public class GenDesController {
     @FXML // fx:id="progressBar"
     private ProgressBar progressBar; // Value injected by FXMLLoader
 
-    @FXML
-    void doCopyAll(ActionEvent event) {
-        final Clipboard clipboard = Clipboard.getSystemClipboard();
-        final ClipboardContent content = new ClipboardContent();
-        content.putString(this.resultTextArea.getText());
-        clipboard.setContent(content);
 
+    @FXML // This method is called by the FXMLLoader when initialization is complete
+    void initialize() {
+        assert upcTextField != null : "fx:id=\"upcTextField\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        assert choiceBoxLanguage != null : "fx:id=\"choiceBoxLanguage\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        assert generateButton != null : "fx:id=\"generateButton\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        assert descriptionTextArea != null : "fx:id=\"descriptionTextArea\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        assert resultTextArea != null : "fx:id=\"resultTextArea\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        assert progressBar != null : "fx:id=\"progressBar\" was not injected: check your FXML file 'genDesGUI.fxml'.";
+        this.choiceBoxLanguage.setValue("EN");
+        this.choiceBoxLanguage.setItems(this.obsList);
+        this.choiceBoxChannel.setValue("MRC");
+        this.choiceBoxChannel.setItems(this.obsListChannel);
     }
 
 
@@ -75,12 +86,20 @@ public class GenDesController {
             return;
         }
 
+        if (!this.upcTextField.getText().matches("[0-9]{13}")) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Warning!");
+            alert.setContentText("Please, check the UPC format!");
+            alert.showAndWait();
+            return;
+        }
+
         String tmp = upcTextField.getText();
         String tmpFormat = tmp.trim();
         String link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
         System.out.println("LINK: " + link);
 
-        Model model = new Model(this.choiceBoxLanguage.getValue(), this.descriptionTextArea.getText());
+        Model model = new Model(this.choiceBoxLanguage.getValue(),  this.choiceBoxChannel.getValue(), this.descriptionTextArea.getText());
 
         Task<String> task = new Task<String>() {
             @Override
@@ -154,19 +173,6 @@ public class GenDesController {
         alert.showAndWait();
     }
 
-    @FXML
-        // This method is called by the FXMLLoader when initialization is complete
-    void initialize() {
-        assert upcTextField != null : "fx:id=\"upcTextField\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        assert choiceBoxLanguage != null : "fx:id=\"choiceBoxLanguage\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        assert generateButton != null : "fx:id=\"generateButton\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        assert descriptionTextArea != null : "fx:id=\"descriptionTextArea\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        assert resultTextArea != null : "fx:id=\"resultTextArea\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        assert progressBar != null : "fx:id=\"progressBar\" was not injected: check your FXML file 'genDesGUI.fxml'.";
-        this.choiceBoxLanguage.setValue("EN");
-        this.choiceBoxLanguage.setItems(this.obsList);
-
-    }
 
     @FXML
     public void clearTextArea() {
@@ -182,6 +188,13 @@ public class GenDesController {
                 "Added concurrency");
 
         alert.showAndWait();
+    }
 
+    @FXML
+    void doCopyAll(ActionEvent event) {
+        final Clipboard clipboard = Clipboard.getSystemClipboard();
+        final ClipboardContent content = new ClipboardContent();
+        content.putString(this.resultTextArea.getText());
+        clipboard.setContent(content);
     }
 }
