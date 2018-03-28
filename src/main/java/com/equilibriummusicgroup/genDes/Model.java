@@ -112,14 +112,14 @@ public class Model {
         switch (this.language) {
 
             case ("EN"):
-                builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(MrcConstants.enConstantFields.EN_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + MrcConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.EN_TOP_DESCRIPTION.getField());
+                builder.append(MrcConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -145,7 +145,7 @@ public class Model {
 
                 System.out.println("AFTER WHILE LOOP LIST: " + list);
 
-                builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
+                builder.append(MrcConstants.enConstantFields.EN_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -153,14 +153,14 @@ public class Model {
                 break;
 
             case ("ES"):
-                builder = new StringBuilder(constantFields.ES_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(MrcConstants.esConstantFields.ES_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + MrcConstants.esConstantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.ES_TOP_DESCRIPTION.getField());
+                builder.append(MrcConstants.esConstantFields.ES_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -182,7 +182,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.ES_BOTTOM_DESCRIPTION.getField());
+                builder.append(MrcConstants.esConstantFields.ES_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -192,14 +192,14 @@ public class Model {
 
             case ("DE"):
 
-                builder = new StringBuilder(constantFields.DE_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(MrcConstants.deConstantFields.DE_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + MrcConstants.deConstantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.DE_TOP_DESCRIPTION.getField());
+                builder.append(MrcConstants.deConstantFields.DE_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -221,7 +221,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.DE_BOTTOM_DESCRIPTION.getField());
+                builder.append(MrcConstants.deConstantFields.DE_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -230,14 +230,14 @@ public class Model {
                 break;
 
             case ("PT"):
-                builder = new StringBuilder(constantFields.PT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(MrcConstants.ptConstantFields.PT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + MrcConstants.ptConstantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.PT_TOP_DESCRIPTION.getField());
+                builder.append(MrcConstants.ptConstantFields.PT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -258,7 +258,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.PT_BOTTOM_DESCRIPTION.getField());
+                builder.append(MrcConstants.ptConstantFields.PT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -267,14 +267,14 @@ public class Model {
                 break;
 
             case ("IT"):
-                builder = new StringBuilder(constantFields.IT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(MrcConstants.itConstantFields.IT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + MrcConstants.itConstantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.IT_TOP_DESCRIPTION.getField());
+                builder.append(MrcConstants.itConstantFields.IT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -296,7 +296,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.IT_BOTTOM_DESCRIPTION.getField());
+                builder.append(MrcConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -323,20 +323,20 @@ public class Model {
         switch (this.language) {
 
             case ("EN"):
-                builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(SleepConstants.enConstantFields.EN_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + SleepConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.EN_TOP_DESCRIPTION.getField());
+                builder.append(SleepConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
                 //I build a list of integers of size this.enKeywords
-                list = new ArrayList<Integer>(MrcConstants.enKeywords.size());
-                for (int i = 1; i <= MrcConstants.enKeywords.size(); i++) {
+                list = new ArrayList<Integer>(SleepConstants.enKeywords.size());
+                for (int i = 1; i <= SleepConstants.enKeywords.size(); i++) {
                     list.add(i);
                 }
 
@@ -346,17 +346,17 @@ public class Model {
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.enKeywords.size(): " + MrcConstants.enKeywords.size());
+                    System.out.println("this.SleepConstants.size(): " + SleepConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.enKeywords.get(list.remove(index)));
+                    builder.append(SleepConstants.enKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 System.out.println("AFTER WHILE LOOP LIST: " + list);
 
-                builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
+                builder.append(SleepConstants.enConstantFields.EN_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -364,36 +364,36 @@ public class Model {
                 break;
 
             case ("ES"):
-                builder = new StringBuilder(constantFields.ES_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(SleepConstants.esConstantFields.ES_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + SleepConstants.esConstantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.ES_TOP_DESCRIPTION.getField());
+                builder.append(SleepConstants.esConstantFields.ES_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.esKeywords.size());
-                for (int i = 1; i <= MrcConstants.esKeywords.size(); i++) {
+                list = new ArrayList<Integer>(SleepConstants.esKeywords.size());
+                for (int i = 1; i <= SleepConstants.esKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.esKeywords.size(): " + MrcConstants.esKeywords.size());
+                    System.out.println("this.esKeywords.size(): " + SleepConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.esKeywords.get(list.remove(index)));
+                    builder.append(SleepConstants.esKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.ES_BOTTOM_DESCRIPTION.getField());
+                builder.append(SleepConstants.esConstantFields.ES_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -403,36 +403,36 @@ public class Model {
 
             case ("DE"):
 
-                builder = new StringBuilder(constantFields.DE_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(SleepConstants.deConstantFields.DE_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + SleepConstants.deConstantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.DE_TOP_DESCRIPTION.getField());
+                builder.append(SleepConstants.deConstantFields.DE_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.deKeywords.size());
-                for (int i = 1; i <= MrcConstants.deKeywords.size(); i++) {
+                list = new ArrayList<Integer>(SleepConstants.deKeywords.size());
+                for (int i = 1; i <= SleepConstants.deKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.deKeywords.size(): " + MrcConstants.deKeywords.size());
+                    System.out.println("this.deKeywords.size(): " + SleepConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.deKeywords.get(list.remove(index)));
+                    builder.append(SleepConstants.deKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.DE_BOTTOM_DESCRIPTION.getField());
+                builder.append(SleepConstants.deConstantFields.DE_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -441,35 +441,35 @@ public class Model {
                 break;
 
             case ("PT"):
-                builder = new StringBuilder(constantFields.PT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(SleepConstants.ptConstantFields.PT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + SleepConstants.ptConstantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.PT_TOP_DESCRIPTION.getField());
+                builder.append(SleepConstants.ptConstantFields.PT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
-                list = new ArrayList<Integer>(MrcConstants.ptKeywords.size());
-                for (int i = 1; i <= MrcConstants.ptKeywords.size(); i++) {
+                list = new ArrayList<Integer>(SleepConstants.ptKeywords.size());
+                for (int i = 1; i <= SleepConstants.ptKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.ptKeywords.size(): " + MrcConstants.ptKeywords.size());
+                    System.out.println("this.ptKeywords.size(): " + SleepConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.ptKeywords.get(list.remove(index)));
+                    builder.append(SleepConstants.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.PT_BOTTOM_DESCRIPTION.getField());
+                builder.append(SleepConstants.ptConstantFields.PT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -478,36 +478,36 @@ public class Model {
                 break;
 
             case ("IT"):
-                builder = new StringBuilder(constantFields.IT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(SleepConstants.itConstantFields.IT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + SleepConstants.itConstantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.IT_TOP_DESCRIPTION.getField());
+                builder.append(SleepConstants.itConstantFields.IT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.itKeywords.size());
-                for (int i = 1; i <= MrcConstants.itKeywords.size(); i++) {
+                list = new ArrayList<Integer>(SleepConstants.itKeywords.size());
+                for (int i = 1; i <= SleepConstants.itKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.itKeywords.size(): " + MrcConstants.itKeywords.size());
+                    System.out.println("this.itKeywords.size(): " + SleepConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.itKeywords.get(list.remove(index)));
+                    builder.append(SleepConstants.itKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.IT_BOTTOM_DESCRIPTION.getField());
+                builder.append(SleepConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -535,20 +535,20 @@ public class Model {
         switch (this.language) {
 
             case ("EN"):
-                builder = new StringBuilder(constantFields.EN_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(BuddhaConstants.enConstantFields.EN_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + BuddhaConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.EN_TOP_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
                 //I build a list of integers of size this.enKeywords
-                list = new ArrayList<Integer>(MrcConstants.enKeywords.size());
-                for (int i = 1; i <= MrcConstants.enKeywords.size(); i++) {
+                list = new ArrayList<Integer>(BuddhaConstants.enKeywords.size());
+                for (int i = 1; i <= BuddhaConstants.enKeywords.size(); i++) {
                     list.add(i);
                 }
 
@@ -558,17 +558,17 @@ public class Model {
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.enKeywords.size(): " + MrcConstants.enKeywords.size());
+                    System.out.println("this.enKeywords.size(): " + BuddhaConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.enKeywords.get(list.remove(index)));
+                    builder.append(BuddhaConstants.enKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 System.out.println("AFTER WHILE LOOP LIST: " + list);
 
-                builder.append(constantFields.EN_BOTTOM_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.enConstantFields.EN_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -576,36 +576,36 @@ public class Model {
                 break;
 
             case ("ES"):
-                builder = new StringBuilder(constantFields.ES_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(BuddhaConstants.esConstantFields.ES_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + BuddhaConstants.esConstantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.ES_TOP_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.esConstantFields.ES_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.esKeywords.size());
-                for (int i = 1; i <= MrcConstants.esKeywords.size(); i++) {
+                list = new ArrayList<Integer>(BuddhaConstants.esKeywords.size());
+                for (int i = 1; i <= BuddhaConstants.esKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.esKeywords.size(): " + MrcConstants.esKeywords.size());
+                    System.out.println("this.esKeywords.size(): " + BuddhaConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.esKeywords.get(list.remove(index)));
+                    builder.append(BuddhaConstants.esKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.ES_BOTTOM_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.esConstantFields.ES_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -615,36 +615,36 @@ public class Model {
 
             case ("DE"):
 
-                builder = new StringBuilder(constantFields.DE_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(BuddhaConstants.deConstantFields.DE_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + BuddhaConstants.deConstantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.DE_TOP_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.deConstantFields.DE_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.deKeywords.size());
-                for (int i = 1; i <= MrcConstants.deKeywords.size(); i++) {
+                list = new ArrayList<Integer>(BuddhaConstants.deKeywords.size());
+                for (int i = 1; i <= BuddhaConstants.deKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.deKeywords.size(): " + MrcConstants.deKeywords.size());
+                    System.out.println("this.deKeywords.size(): " + BuddhaConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.deKeywords.get(list.remove(index)));
+                    builder.append(BuddhaConstants.deKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.DE_BOTTOM_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.deConstantFields.DE_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -653,35 +653,35 @@ public class Model {
                 break;
 
             case ("PT"):
-                builder = new StringBuilder(constantFields.PT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(BuddhaConstants.ptConstantFields.PT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + BuddhaConstants.ptConstantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.PT_TOP_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.ptConstantFields.PT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
-                list = new ArrayList<Integer>(MrcConstants.ptKeywords.size());
-                for (int i = 1; i <= MrcConstants.ptKeywords.size(); i++) {
+                list = new ArrayList<Integer>(BuddhaConstants.ptKeywords.size());
+                for (int i = 1; i <= BuddhaConstants.ptKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.ptKeywords.size(): " + MrcConstants.ptKeywords.size());
+                    System.out.println("this.ptKeywords.size(): " + BuddhaConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.ptKeywords.get(list.remove(index)));
+                    builder.append(BuddhaConstants.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.PT_BOTTOM_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.ptConstantFields.PT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -690,36 +690,36 @@ public class Model {
                 break;
 
             case ("IT"):
-                builder = new StringBuilder(constantFields.IT_FIRST_SENTENCE.getField());
+                builder = new StringBuilder(BuddhaConstants.itConstantFields.IT_FIRST_SENTENCE.getField());
                 builder.append(this.albumURL);
 
-                builder.append("\n" + constantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
+                builder.append("\n" + BuddhaConstants.itConstantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(constantFields.IT_TOP_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.itConstantFields.IT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
 
-                list = new ArrayList<Integer>(MrcConstants.itKeywords.size());
-                for (int i = 1; i <= MrcConstants.itKeywords.size(); i++) {
+                list = new ArrayList<Integer>(BuddhaConstants.itKeywords.size());
+                for (int i = 1; i <= BuddhaConstants.itKeywords.size(); i++) {
                     list.add(i);
                 }
 
                 rand = new Random();
                 while (list.size() > 7) {
-                    System.out.println("this.itKeywords.size(): " + MrcConstants.itKeywords.size());
+                    System.out.println("this.itKeywords.size(): " + BuddhaConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
                     System.out.println("INDEX: " + index);
-                    builder.append(MrcConstants.itKeywords.get(list.remove(index)));
+                    builder.append(BuddhaConstants.itKeywords.get(list.remove(index)));
                     builder.append("\n");
                 }
 
                 builder.append("\n\n");
 
-                builder.append(constantFields.IT_BOTTOM_DESCRIPTION.getField());
+                builder.append(BuddhaConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
