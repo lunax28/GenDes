@@ -35,7 +35,7 @@ public class GenDesController {
     @FXML
     private ChoiceBox<String> choiceBoxLanguage;
 
-    private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT");
+    private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT", "FR");
 
     @FXML
     private ChoiceBox<String> choiceBoxChannel;

@@ -134,7 +134,7 @@ public class Model {
                 //While the list that I've just built is greater than 7, I proceed to pick a random int between 0 and list.size()-1 and
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > MrcConstants.enKeywords.size()-3) {
                     System.out.println("this.enKeywords.size(): " + MrcConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -171,7 +171,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > MrcConstants.esKeywords.size()-3) {
                     System.out.println("this.esKeywords.size(): " + MrcConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -210,7 +210,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > MrcConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + MrcConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -247,7 +247,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > MrcConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + MrcConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -285,7 +285,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > MrcConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + MrcConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -297,6 +297,43 @@ public class Model {
                 builder.append("\n\n");
 
                 builder.append(MrcConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
+
+                System.out.println(builder);
+
+                des = builder.toString();
+                break;
+
+            case ("FR"):
+                builder = new StringBuilder(MrcConstants.frConstantFields.FR_FIRST_SENTENCE.getField());
+                builder.append(this.albumURL);
+
+                builder.append("\n" + MrcConstants.frConstantFields.FR_SECOND_SENTENCE.getField() + "\n\n");
+
+                builder.append(this.inputDescription + "\n\n");
+
+                builder.append(MrcConstants.frConstantFields.FR_TOP_DESCRIPTION.getField());
+
+                builder.append("\n\n");
+
+
+                list = new ArrayList<Integer>(MrcConstants.frKeywords.size());
+                for (int i = 1; i <= MrcConstants.frKeywords.size(); i++) {
+                    list.add(i);
+                }
+
+                rand = new Random();
+                while (list.size() > MrcConstants.frKeywords.size()-3) {
+                    System.out.println("this.frKeywords.size(): " + MrcConstants.frKeywords.size());
+                    System.out.println("LIST: " + list);
+                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("INDEX: " + index);
+                    builder.append(MrcConstants.frKeywords.get(list.remove(index)));
+                    builder.append("\n");
+                }
+
+                builder.append("\n\n");
+
+                builder.append(MrcConstants.frConstantFields.FR_BOTTOM_DESCRIPTION.getField());
 
                 System.out.println(builder);
 
@@ -345,7 +382,7 @@ public class Model {
                 //While the list that I've just built is greater than 7, I proceed to pick a random int between 0 and list.size()-1 and
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > SleepConstants.enKeywords.size()-3) {
                     System.out.println("this.SleepConstants.size(): " + SleepConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -382,7 +419,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > SleepConstants.esKeywords.size()-3) {
                     System.out.println("this.esKeywords.size(): " + SleepConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -421,7 +458,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > SleepConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + SleepConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -458,7 +495,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > SleepConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + SleepConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -496,7 +533,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > SleepConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + SleepConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -557,7 +594,7 @@ public class Model {
                 //While the list that I've just built is greater than 7, I proceed to pick a random int between 0 and list.size()-1 and
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > BuddhaConstants.enKeywords.size()-3) {
                     System.out.println("this.enKeywords.size(): " + BuddhaConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -594,7 +631,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > BuddhaConstants.esKeywords.size() - 3) {
                     System.out.println("this.esKeywords.size(): " + BuddhaConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -633,7 +670,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > BuddhaConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + BuddhaConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -670,7 +707,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > BuddhaConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + BuddhaConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
@@ -708,7 +745,7 @@ public class Model {
                 }
 
                 rand = new Random();
-                while (list.size() > 7) {
+                while (list.size() > BuddhaConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + BuddhaConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
                     int index = rand.nextInt(list.size() - 1);
