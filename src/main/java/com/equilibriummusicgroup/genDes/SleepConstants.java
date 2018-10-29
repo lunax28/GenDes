@@ -129,9 +129,9 @@ public class SleepConstants {
 
     public enum enConstantFields {
 
-        EN_FIRST_SENTENCE("✅ Full album on iTunes & Apple Music: "),
+        EN_FIRST_SENTENCE("► Full album on iTunes & Apple Music: "),
 
-        EN_SECOND_SENTENCE("✅ Join the community: http://meditationrelaxclub.com/"),
+        EN_SECOND_SENTENCE("► Join the community: http://meditationrelaxclub.com/"),
 
 
         EN_TOP_DESCRIPTION("\uD83C\uDF1F Social Connections: \n" +
@@ -177,11 +177,11 @@ public class SleepConstants {
 
     public enum esConstantFields {
 
-        ES_FIRST_SENTENCE("✅ Album completo en iTunes y Apple Music: "),
+        ES_FIRST_SENTENCE("► Album completo en iTunes y Apple Music: "),
 
-        ES_SECOND_SENTENCE("✅ Únete a la comunidad de MRC: http://meditationrelaxclub.com/"),
+        ES_SECOND_SENTENCE("► Únete a la comunidad de MRC: http://meditationrelaxclub.com/"),
 
-        ES_TOP_DESCRIPTION("\uD83D\uDC4D Redes Sociales: \n" +
+        ES_TOP_DESCRIPTION("\uD83C\uDF1F Redes Sociales: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -223,9 +223,9 @@ public class SleepConstants {
 
     public enum deConstantFields {
 
-        DE_FIRST_SENTENCE ("✅ Volles Album auf iTunes & AppleMusic: "),
+        DE_FIRST_SENTENCE ("► Volles Album auf iTunes & AppleMusic: "),
 
-        DE_SECOND_SENTENCE ("✅ MRC community beitreten: http://meditationrelaxclub.com/"),
+        DE_SECOND_SENTENCE ("► MRC community beitreten: http://meditationrelaxclub.com/"),
 
         DE_TOP_DESCRIPTION ("\uD83C\uDF1F Folgen Sie uns auf:\n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -276,9 +276,9 @@ public class SleepConstants {
 
     public enum ptConstantFields {
 
-        PT_FIRST_SENTENCE ("✅ Album completo no iTunes & AppleMusic: "),
+        PT_FIRST_SENTENCE ("► Album completo no iTunes & AppleMusic: "),
 
-        PT_SECOND_SENTENCE ("✅ Faça parte da comunidade MRC: http://meditationrelaxclub.com/"),
+        PT_SECOND_SENTENCE ("► Faça parte da comunidade MRC: http://meditationrelaxclub.com/"),
 
         PT_TOP_DESCRIPTION ("\uD83C\uDF1F Conexões Social:\n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -307,7 +307,8 @@ public class SleepConstants {
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
                 "♪ https://www.youtube.com/chilloutloungerelax\n" +
                 "\n" +
-                "\uD83D\uDC44 Sensual Music Club - Chilling and Seductive Love Music♪ https://www.youtube.com/sensualmusicclub");
+                "\uD83D\uDC44 Sensual Music Club - Chilling and Seductive Love Music\n" +
+                "♪ https://www.youtube.com/sensualmusicclub\n");
 
         private String field;
 
@@ -322,9 +323,9 @@ public class SleepConstants {
 
     public enum itConstantFields {
 
-        IT_FIRST_SENTENCE("✅ Album Completo su iTunes & AppleMusic: "),
+        IT_FIRST_SENTENCE("► Album Completo su iTunes & AppleMusic: "),
 
-        IT_SECOND_SENTENCE("✅ Unisciti alla community di MRC: http://meditationrelaxclub.com/"),
+        IT_SECOND_SENTENCE("► Unisciti alla community di MRC: http://meditationrelaxclub.com/"),
 
         IT_TOP_DESCRIPTION ("\uD83C\uDF1F I Nostri Social: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +

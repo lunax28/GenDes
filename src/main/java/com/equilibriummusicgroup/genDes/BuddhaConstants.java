@@ -11,203 +11,170 @@ public class BuddhaConstants {
     @FXML
     public static List<String> enKeywords = new ArrayList<String>(Arrays.asList(
             "♦ Deep Relaxation with Sounds of Nature ♦\n" +
-            "Filled with soothing sounds of nature and inspiring sounds, our relaxing music is perfect for a chilling moment after work, when you feel tired and stressed. This music, highly inspired by the gentle melodies of Enya and the experimental music of Brian Eno, is amazing for guided relaxation, to center your chakras and find a new balance in life. Buddha Tribe relaxation music is a natural aid for stress relief, anxiety attacks and depression, finding new serenity and joy.\n" +
-            "#relax #relaxation #serenity #peacefulmusic #music #stressrelief\n",
+            "Filled with soothing sounds of nature and inspiring sounds, our relaxing music is perfect for a chilling moment after work, when you feel tired and stressed. This music, highly inspired by the gentle melodies of Enya and the experimental music of Brian Eno, is amazing for guided relaxation, to center your chakras and find a new balance in life. Buddha Tribe relaxation music is a natural aid for stress relief, anxiety attacks and depression, finding new serenity and joy.\n",
 
             "♦ Zen Tibetan Buddhist Meditation ♦\n" +
-            "Specialized in zen meditation music, Buddha Tribe provides the greatest meditative videos on YouTube, with a wide variety of oriental sounds to induce you into a deep state of meditation. Tibetan bowls, crystals, buddhist chants and many more are only a few of the asian characteristics of these mind meditation songs with instrumental tranquil music, to help you reach the enlightenment and be perfectly consciouss of your self being.\n" +
-            "#meditation #mindfulness #tibetan #monks #india #deepmeditation #chakra\n",
+            "Specialized in zen meditation music, Buddha Tribe provides the greatest meditative videos on YouTube, with a wide variety of oriental sounds to induce you into a deep state of meditation. Tibetan bowls, crystals, buddhist chants and many more are only a few of the asian characteristics of these mind meditation songs with instrumental tranquil music, to help you reach the enlightenment and be perfectly consciouss of your self being.\n",
 
             "♦ Wellness & Spa ♦\n" +
-            "Our composers sincerely create everyday gentle music and light melodies useful to spa and massage treatments. Piano music, flute and harp songs give shape to wonderful videos you can play at home for free while enjoying your spa day with beauty treatments and little body massages to relax and unwind, meeting your inner harmony again.\n" +
-            "#spa #wellness #wellbeing #soothingmusic #reiki #massage #therapy\n",
+            "Our composers sincerely create everyday gentle music and light melodies useful to spa and massage treatments. Piano music, flute and harp songs give shape to wonderful videos you can play at home for free while enjoying your spa day with beauty treatments and little body massages to relax and unwind, meeting your inner harmony again.\n" ,
 
             "♦ Yoga Music for Stress Relief ♦\n" +
-            "Open the mind with the inspirations of yoga practice. If you’re looking for something special as soundtrack for your yoga exercises, we have something that perfectly suits for you. Our yoga meditation musics mix oriental melodies, produced with Asian instruments like oriental flutes, indian sitar, harps and strings, with real nature sounds that help you empty your mind following the yoga workout routine to relieve daily stress and anxieties that affect your life.\n" +
-            "#yoga #yogi #yogamusic #meditation #workout #yogatraining #destress #sunsalutation\n",
+            "Open the mind with the inspirations of yoga practice. If you’re looking for something special as soundtrack for your yoga exercises, we have something that perfectly suits for you. Our yoga meditation musics mix oriental melodies, produced with Asian instruments like oriental flutes, indian sitar, harps and strings, with real nature sounds that help you empty your mind following the yoga workout routine to relieve daily stress and anxieties that affect your life.\n",
 
             "♦ Music for under pressure study and work ♦\n" +
-            "Classical new age study music and background office music are vital for our Buddha Tribe channel to help you connect the brain during the hardest hours of the day. Our concentration music for studying contains alpha and gamma waves for brain power, for exam study preparation and homeworks. Ideal also to face summer homeworks. We also provide instrumental ambient music for offices and waiting rooms to listen to while working.\n" +
-            "#study #concentration #meditation #focus #learning #school #homeworks\n",
+            "Classical new age study music and background office music are vital for our Buddha Tribe channel to help you connect the brain during the hardest hours of the day. Our concentration music for studying contains alpha and gamma waves for brain power, for exam study preparation and homeworks. Ideal also to face summer homeworks. We also provide instrumental ambient music for offices and waiting rooms to listen to while working.\n",
 
             "♦ Sleep Music Lullabies for Babies and Adults and Soothing Pregnancy Music ♦\n" +
-            "Some of our videos are specifically created to help babies fall asleep and rest all night long, calming them while crying and put them to sleep. These music box lullabies and soft piano songs are perfect also for hyper and restless children. We do not forget also our future mothers who can count on a particular session of music videos with pregnancy music or relaxing slow music for labor to help them relax and fall asleep with their babies in the womb.\n" +
-            "#sleep #relax #deepsleep #musicbox #goodnight #fallasleep #babysleep\n",
+            "Some of our videos are specifically created to help babies fall asleep and rest all night long, calming them while crying and put them to sleep. These music box lullabies and soft piano songs are perfect also for hyper and restless children. We do not forget also our future mothers who can count on a particular session of music videos with pregnancy music or relaxing slow music for labor to help them relax and fall asleep with their babies in the womb.\n" ,
 
             "♦ New Age Lounge Easy Listening ♦\n" +
-            "Buddha Tribe created a special session for all lovers of ambient lounge and chill out music with some sensual videos with background music of all kinds, because it’s possible to relax to the notes of smooth electronic music, too. Inspired by the famous collections of Buddha Bar and Cafè del Mar, Buddha Tribe lounge music wants to recreate the magic of a summer Ibiza sunset through its emotional musics and tropical sounds.\n" +
-            "#newage #chillout #buddhabar #cafedelmar #lounge #loungemusic #chill #chillmusic\n",
-
+            "Buddha Tribe created a special session for all lovers of ambient lounge and chill out music with some sensual videos with background music of all kinds, because it’s possible to relax to the notes of smooth electronic music, too. Inspired by the famous collections of Buddha Bar and Cafè del Mar, Buddha Tribe lounge music wants to recreate the magic of a summer Ibiza sunset through its emotional musics and tropical sounds.\n",
 
             "♦ Music for special occasions ♦\n" +
-            "Buddha Tribe thinks of everything, to always be perfect in every situation. From romantic love songs played with piano for your intimate nights on Valentine’s Day, to special traditional instrumental carols for Christmas Time, to sacred spiritual songs for Easter and background horror scary tunes for Halloween parties, we always have the best choice for you.\n" +
-            "#christmas #halloween # holidays #vacation #valentine #pianomusic #piano #party\n"));
+            "Buddha Tribe thinks of everything, to always be perfect in every situation. From romantic love songs played with piano for your intimate nights on Valentine’s Day, to special traditional instrumental carols for Christmas Time, to sacred spiritual songs for Easter and background horror scary tunes for Halloween parties, we always have the best choice for you.\n"));
 
     @FXML
     public static List<String> esKeywords = new ArrayList<String>(Arrays.asList(
 
             "♦ Relajación profunda con sonidos de la naturaleza ♦\n" +
-            "Llena de sonidos de la naturaleza relajantes y sonidos inspiradores, nuestra música New Age es perfecta para un momento de relajación después del trabajo, cuando se siente estresado y cansado. Esta música, inspirada por las suaves melodías de Enya y la música experimental de Brian Eno, es increíble para la relajación guiada, para equilibrar sus chakras y lograr un nuevo equilibrio interior. La música de relajación de Buddha Tribe es una ayuda natural para el alivio del estrés, ataques de ansiedad y pánico, para lograr la paz interior, serenidad y felicidad.\n" +
-            "#relax #relaxation #serenity #peacefulmusic #music #stressrelief\n",
+            "Llena de sonidos de la naturaleza relajantes y sonidos inspiradores, nuestra música New Age es perfecta para un momento de relajación después del trabajo, cuando se siente estresado y cansado. Esta música, inspirada por las suaves melodías de Enya y la música experimental de Brian Eno, es increíble para la relajación guiada, para equilibrar sus chakras y lograr un nuevo equilibrio interior. La música de relajación de Buddha Tribe es una ayuda natural para el alivio del estrés, ataques de ansiedad y pánico, para lograr la paz interior, serenidad y felicidad.\n",
 
             "♦ Meditación Budista Tibetana Zen ♦\n" +
-            "Especializado en música de meditación zen, Buddha Tribe ofrece los mejores videos de meditación en YouTube, con una amplia variedad de música asiática y sonidos orientales para lograr un profundo estado de meditación. Cuencos tibetanos, flautas, cantos budistas y muchos más son solo algunas de las características asiáticas de estas canciones de meditación profunda con música instrumental tranquila para ayudar a alcanzar la iluminación espiritual y ser perfectamente consciente de su ser.\n" +
-            "#meditation #mindfulness #tibetan #monks #india #deepmeditation #chakra\n",
+            "Especializado en música de meditación zen, Buddha Tribe ofrece los mejores videos de meditación en YouTube, con una amplia variedad de música asiática y sonidos orientales para lograr un profundo estado de meditación. Cuencos tibetanos, flautas, cantos budistas y muchos más son solo algunas de las características asiáticas de estas canciones de meditación profunda con música instrumental tranquila para ayudar a alcanzar la iluminación espiritual y ser perfectamente consciente de su ser.\n",
 
 
             "♦ Wellness & Spa ♦\n" +
-            "Nuestros compositores crean cada día música suave y relajante para los centros de bienestar, el spa y los masajes. Las canciones de piano, flauta y arpa dan forma a videos maravillosos que puede escuchar en casa de forma gratuita mientras disfruta de su día en el spa con los tratamientos de belleza y masajes corporales para relajarse y descansar, encontrando nuevamente su armonía y paz interior.\n" +
-            "#spa #wellness #wellbeing #soothingmusic #reiki #massage #therapy\n",
+            "Nuestros compositores crean cada día música suave y relajante para los centros de bienestar, el spa y los masajes. Las canciones de piano, flauta y arpa dan forma a videos maravillosos que puede escuchar en casa de forma gratuita mientras disfruta de su día en el spa con los tratamientos de belleza y masajes corporales para relajarse y descansar, encontrando nuevamente su armonía y paz interior.\n",
 
 
             "♦ Música de yoga para aliviar el estrés ♦\n" +
-            "Abre la mente con las imágenes de la práctica de yoga. Si está buscando algo especial como unas música relajantes de fondo para sus ejercicios de yoga, tenemos algo que se adapta perfectamente a usted. Nuestras músicas de meditación de yoga mezclan melodías asiáticas, producidas con flautas orientales, sitar indio, arpas y guitarras, sonidos de la naturaleza que ayudan a vaciar su mente siguiendo la rutina de ejercicios de yoga para aliviar el estrés diario y las ansiedades que afectan su vida.\n" +
-            "#yoga #yogi #yogamusic #meditation #workout #yogatraining #destress #sunsalutation\n",
+            "Abre la mente con las imágenes de la práctica de yoga. Si está buscando algo especial como unas música relajantes de fondo para sus ejercicios de yoga, tenemos algo que se adapta perfectamente a usted. Nuestras músicas de meditación de yoga mezclan melodías asiáticas, producidas con flautas orientales, sitar indio, arpas y guitarras, sonidos de la naturaleza que ayudan a vaciar su mente siguiendo la rutina de ejercicios de yoga para aliviar el estrés diario y las ansiedades que afectan su vida.\n",
 
 
             "♦ Música para estudiar y trabajar ♦\n" +
-            "La música clásica y la música de fondo new age son vitales para nuestro canal Buddha Tribe para ayudarle a estudiar y conectar el cerebro durante las horas más difíciles del día. Nuestra música de concentración para el estudio contiene ondas alfa y gamma para el poder del cerebro, para la preparación de los exámenes y las tareas. Ideal también para enfrentar los deberes de verano. También ofrecemos música ambiental instrumental para las oficinas y las salas de espera.\n" +
-            "#study #concentration #meditation #focus #learning #school #homeworks\n",
+            "La música clásica y la música de fondo new age son vitales para nuestro canal Buddha Tribe para ayudarle a estudiar y conectar el cerebro durante las horas más difíciles del día. Nuestra música de concentración para el estudio contiene ondas alfa y gamma para el poder del cerebro, para la preparación de los exámenes y las tareas. Ideal también para enfrentar los deberes de verano. También ofrecemos música ambiental instrumental para las oficinas y las salas de espera.\n",
 
             "♦ Canciones de cuna para dormir para bebés y adultos y música relajante para el embarazo♦\n" +
-            "Algunos de nuestros videos están específicamente creados para ayudar a los bebés a dormir y descansar toda la noche, calmándolos mientras lloran. Estas canciones de cuna relajantes y canciones de piano suaves son perfectas para niños hiperactivos e inquietos. Tampoco olvidamos a nuestras futuras madres que pueden contar con una sesión particular de videos musicales con música para el embarazo o música lenta y relajante para el trabajo de parto para ayudarlas a relajarse y quedarse con sus bebés en el útero.\n" +
-            "#sleep #relax #deepsleep #musicbox #goodnight #fallasleep #babysleep\n",
+            "Algunos de nuestros videos están específicamente creados para ayudar a los bebés a dormir y descansar toda la noche, calmándolos mientras lloran. Estas canciones de cuna relajantes y canciones de piano suaves son perfectas para niños hiperactivos e inquietos. Tampoco olvidamos a nuestras futuras madres que pueden contar con una sesión particular de videos musicales con música para el embarazo o música lenta y relajante para el trabajo de parto para ayudarlas a relajarse y quedarse con sus bebés en el útero.\n",
 
             "♦ Música Lounge y New Age Easy Listening  ♦\n" +
-            "Buddha Tribe ha creado una sesión especial para todos los amantes de la música ambiente lounge y chill out con algunos videos sensuales con música de fondo de todo tipo, para relajar nuestros oyentes con las notas de la música electrónica relajante. Inspirada en las famosas colecciones de Buddha Bar y Cafè del Mar, la música lounge de Buddha Tribe quiere recrear la magia de un atardecer veraniego de Ibiza a través de músicas emocionales y sonidos tropicales.\n" +
-            "#newage #chillout #buddhabar #cafedelmar #lounge #loungemusic #chill #chillmusic\n",
+            "Buddha Tribe ha creado una sesión especial para todos los amantes de la música ambiente lounge y chill out con algunos videos sensuales con música de fondo de todo tipo, para relajar nuestros oyentes con las notas de la música electrónica relajante. Inspirada en las famosas colecciones de Buddha Bar y Cafè del Mar, la música lounge de Buddha Tribe quiere recrear la magia de un atardecer veraniego de Ibiza a través de músicas emocionales y sonidos tropicales.\n",
 
             "♦ Música para ocasiones especiales ♦\n" +
-            "La tribu de Buda piensa en todo, para ser siempre perfecta en cada situación. Desde las canciones de amor románticas de piano para sus noches íntimas en el Día de San Valentín, hasta los villancicos instrumentales tradicionales para Navidad, las canciones espirituales sagradas para Pascua y los sonidos de terror para las fiestas de Halloween, siempre tenemos la mejor opción para usted.\n" +
-            "#christmas #halloween # holidays #vacation #valentine #pianomusic #piano #party\n"));
+            "La tribu de Buda piensa en todo, para ser siempre perfecta en cada situación. Desde las canciones de amor románticas de piano para sus noches íntimas en el Día de San Valentín, hasta los villancicos instrumentales tradicionales para Navidad, las canciones espirituales sagradas para Pascua y los sonidos de terror para las fiestas de Halloween, siempre tenemos la mejor opción para usted.\n" ));
 
     @FXML
     public static List<String> deKeywords = new ArrayList<String>(Arrays.asList(
             "♦ Tiefenentspannung mit Klängen der Natur ♦\n" +
                     "Unsere entspannende Musik ist mit beruhigenden Klängen der Natur und inspirierenden Klängen gefüllt, und eignet sich perfekt für einen entspannenden Moment nach der Arbeit, wenn Sie sich müde und gestresst fühlen.\n" +
                     "Diese Musik, die von den sanften Melodien von Enya und der experimentellen Musik von Brian Eno inspiriert ist, ist fantastisch für geführte Entspannung, um Ihre Chakren zu zentrieren und eine neue Balance im Leben zu finden.\n" +
-                    "Buddha Tribe Entspannungsmusik ist eine natürliche Hilfe nicht nur für Stressabbau, Angstattacken und Depressionen, sondern auch um neue Ruhe und Freude zu finden.\n" +
-                    "#relax #relaxation #serenity #peacefulmusic #music #stressrelief\n",
+                    "Buddha Tribe Entspannungsmusik ist eine natürliche Hilfe nicht nur für Stressabbau, Angstattacken und Depressionen, sondern auch um neue Ruhe und Freude zu finden.\n",
+
 
 
             "♦ Zen tibetisch-buddhistische Meditation ♦\n" +
                     "Buddha Tribe ist auf Zen-Meditationsmusik spezialisiert und bietet die größten meditativen Videos auf YouTube mit einer Vielzahl von orientalischen Klängen, die Sie in einen tiefen Zustand der Meditation versetzen.\n" +
-                    "Tibetanische Schüsseln, Kristalle, buddhistische Gesänge und viele mehr sind nur einige der asiatischen Eigenschaften dieser Gedankenmeditationslieder mit instrumentaler ruhiger Musik, um Ihnen zu helfen, die Erleuchtung zu erreichen und vollkommene Selbstbewusstsein zu besitzen.\n" +
-                    "#meditation #mindfulness #tibetan #monks #india #deepmeditation #chakra\n",
+                    "Tibetanische Schüsseln, Kristalle, buddhistische Gesänge und viele mehr sind nur einige der asiatischen Eigenschaften dieser Gedankenmeditationslieder mit instrumentaler ruhiger Musik, um Ihnen zu helfen, die Erleuchtung zu erreichen und vollkommene Selbstbewusstsein zu besitzen.\n",
 
 
             "♦ Wellness & Spa ♦\n" +
-                    "Unsere Komponisten kreieren aufrichtig sanfte Musik und leichte Melodien, die für Spa und Massageanwendungen nützlich sind. Klaviermusik, Flöte und Harfenlieder formen wundervolle Videos, die Sie zu Hause kostenlos spielen können, während Sie Ihren Wellness-Tag mit Schönheitsbehandlungen und kleinen Körpermassagen genießen, nicht nur um sich zu entspannen und zu beruhigen, sondern auch um Ihre innere Harmonie wieder zu finden.\n" +
-                    "#spa #wellness #wellbeing #soothingmusic #reiki #massage #therapy\n",
+                    "Unsere Komponisten kreieren aufrichtig sanfte Musik und leichte Melodien, die für Spa und Massageanwendungen nützlich sind. Klaviermusik, Flöte und Harfenlieder formen wundervolle Videos, die Sie zu Hause kostenlos spielen können, während Sie Ihren Wellness-Tag mit Schönheitsbehandlungen und kleinen Körpermassagen genießen, nicht nur um sich zu entspannen und zu beruhigen, sondern auch um Ihre innere Harmonie wieder zu finden.\n",
 
 
             "♦ Yoga Musik für Stressabbau ♦\n" +
-                    "Öffnen Sie den Geist mit den Inspirationen der Yoga-Praxis. Wenn Sie etwas Spezielles als Soundtrack für Ihre Yoga-Übungen suchen, haben wir etwas, das perfekt zu Ihnen passt. Unsere Yoga-Meditationsmusik kombiniert mit orientalischen Melodien, die mit asiatischen Instrumenten wie orientalischen Flöten, indischer Sitar, Harfe und Streichern erzeugt werden, mit echten Naturgeräuschen, die Ihnen helfen, dem Alltagsstress zu vergessen und der Angst zu lindern.\n" +
-                    "#yoga #yogi #yogamusic #meditation #workout #yogatraining #destress #sunsalutation\n",
+                    "Öffnen Sie den Geist mit den Inspirationen der Yoga-Praxis. Wenn Sie etwas Spezielles als Soundtrack für Ihre Yoga-Übungen suchen, haben wir etwas, das perfekt zu Ihnen passt. Unsere Yoga-Meditationsmusik kombiniert mit orientalischen Melodien, die mit asiatischen Instrumenten wie orientalischen Flöten, indischer Sitar, Harfe und Streichern erzeugt werden, mit echten Naturgeräuschen, die Ihnen helfen, dem Alltagsstress zu vergessen und der Angst zu lindern.\n",
 
 
             "♦ Musik für unter Druck Studie und Arbeit ♦\n" +
-                    "Klassische New-Age-Musik zum Lernen und Hintergrundmusik für Büro sind lebenswichtig für unseren Buddha-Tribe-Kanal, um deines Gehirn während der härtesten Stunden des Tages verbinden zu helfen. Unsere Konzentrationsmusik zum Lernen enthält Alpha- und Gammawellen für die Gehirnleistung, die Vorbereitung von Studien und Hausaufgaben. Wir bieten auch instrumentale Ambientmusik für Büros und Warteräume, die bei der Arbeit gehört können.\n" +
-                    "#study #concentration #meditation #focus #learning #school #homeworks\n",
+                    "Klassische New-Age-Musik zum Lernen und Hintergrundmusik für Büro sind lebenswichtig für unseren Buddha-Tribe-Kanal, um deines Gehirn während der härtesten Stunden des Tages verbinden zu helfen. Unsere Konzentrationsmusik zum Lernen enthält Alpha- und Gammawellen für die Gehirnleistung, die Vorbereitung von Studien und Hausaufgaben. Wir bieten auch instrumentale Ambientmusik für Büros und Warteräume, die bei der Arbeit gehört können.\n",
 
             "♦ Schlaf Musik Wiegenlieder für Babys und Erwachsene und beruhigende Schwangerschaft Musik ♦\n" +
                     "Einige unserer Videos wurden speziell entwickelt, um Babys beim Einschlafen und bei der ganzen Nacht zu helfen. Diese Musikbox Schlaflieder und weichen Klavierlieder sind perfekt auch für hyper und unruhige Kinder.\n" +
-                    "Wir vergessen auch nicht unsere zukünftigen Mütter, die auf eine bestimmte Sitzung von Musikvideos mit Schwangerschaftsmusik oder entspannender langsamer Musik für den Geburt zählen können, um ihnen zu helfen, sich zu entspannen und mit ihren Babys im Mutterleib einzuschlafen.\n" +
-                    "#sleep #relax #deepsleep #musicbox #goodnight #fallasleep #babysleep\n",
+                    "Wir vergessen auch nicht unsere zukünftigen Mütter, die auf eine bestimmte Sitzung von Musikvideos mit Schwangerschaftsmusik oder entspannender langsamer Musik für den Geburt zählen können, um ihnen zu helfen, sich zu entspannen und mit ihren Babys im Mutterleib einzuschlafen.\n",
 
             "♦ New Age Lounge Lauschangriff ♦\n" +
                     "Buddha Tribe hat eine spezielle Session für alle Fans von Ambient Lounge und Chill Out Musik mit einigen sinnlichen Videos mit Hintergrundmusik aller Art geschaffen, denn es ist auch möglich, sich zu den Noten sanfter elektronischer Musik zu entspannen.\n" +
-                    "Inspiriert von den berühmten Buddha Bar- und Cafè del Mar-Kollektionen möchte Buddha Tribe lounge music mit seiner emotionalen Musik und tropischen Klängen den Zauber eines sommerlichen Ibiza-Sonnenuntergangs erschaffen.\n" +
-                    "#newage #chillout #buddhabar #cafedelmar #lounge #loungemusic #chill #chillmusic\n",
+                    "Inspiriert von den berühmten Buddha Bar- und Cafè del Mar-Kollektionen möchte Buddha Tribe lounge music mit seiner emotionalen Musik und tropischen Klängen den Zauber eines sommerlichen Ibiza-Sonnenuntergangs erschaffen.\n",
 
             "♦ Musik für besondere Anlässe ♦\n" +
-                    "Buddha Tribe denkt an alles, um in jeder Situation immer perfekt zu sein. Von romantischen Liebesliedern mit Klavier gespielt für Ihre intime Nächte am Valentinstag, zu speziellen traditionellen Instrumental Weihnachtsliedern, zu heiligen geistlichen Liedern für Ostern und Hintergrund Horror Grusel-Tunes für Halloween-Partys, wir haben immer die beste Wahl für Sie.\n" +
-                    "#christmas #halloween # holidays #vacation #valentine #pianomusic #piano #party\n"));
+                    "Buddha Tribe denkt an alles, um in jeder Situation immer perfekt zu sein. Von romantischen Liebesliedern mit Klavier gespielt für Ihre intime Nächte am Valentinstag, zu speziellen traditionellen Instrumental Weihnachtsliedern, zu heiligen geistlichen Liedern für Ostern und Hintergrund Horror Grusel-Tunes für Halloween-Partys, wir haben immer die beste Wahl für Sie.\n"));
 
 
     @FXML
     public static List<String> ptKeywords = new ArrayList<String>(Arrays.asList(
             "♦ Relaxamento profundo com sons da natureza ♦\n" +
-                    "Cheia de sons suaves da natureza e sons inspiradores nossa música relaxante é perfeita para um momento arrepiante depois do trabalho, quando você se sentir cansado e estressado. Esta música, altamente inspirada as melodias suaves de Enya e a música experimental de Brian Eno, é surpreendente para um relaxamento guiado, para centralizar seus chakras e encontrar um novo equilíbrio na vida. Música de relaxamento de Buddha Tribe é uma ajuda natural para aliviar o estresse, ataques de ansiedade e depressão, encontrar novamente alegria e serenidade.\n" +
-                    "#relax #relaxation #serenity #peacefulmusic #music #stressrelief\n",
+                    "Cheia de sons suaves da natureza e sons inspiradores nossa música relaxante é perfeita para um momento arrepiante depois do trabalho, quando você se sentir cansado e estressado. Esta música, altamente inspirada as melodias suaves de Enya e a música experimental de Brian Eno, é surpreendente para um relaxamento guiado, para centralizar seus chakras e encontrar um novo equilíbrio na vida. Música de relaxamento de Buddha Tribe é uma ajuda natural para aliviar o estresse, ataques de ansiedade e depressão, encontrar novamente alegria e serenidade.\n",
+
 
             "♦ Musica  Zen Budista Tibetana para Meditação ♦\n" +
-                    "Especializada em música zen de Meditação, Buddha Tribe fornece os maiores vídeos meditativos no YouTube, com uma grande variedade de sons orientais para induzi-lo em um profundo estado de meditação. Sinos tibetanos, cristais, cânticos budistas e muitos mais são apenas algumas das características asiáticas dessas músicas de meditação  com música instrumental e tranquila, para ajudá-lo a alcançar a iluminação e estar perfeitamente consciente de si mesmo.\n" +
-                    "#meditation #mindfulness #tibetan #monks #india #deepmeditation #chakra\n",
+                    "Especializada em música zen de Meditação, Buddha Tribe fornece os maiores vídeos meditativos no YouTube, com uma grande variedade de sons orientais para induzi-lo em um profundo estado de meditação. Sinos tibetanos, cristais, cânticos budistas e muitos mais são apenas algumas das características asiáticas dessas músicas de meditação  com música instrumental e tranquila, para ajudá-lo a alcançar a iluminação e estar perfeitamente consciente de si mesmo.\n",
 
             "♦ Wellness & Spa ♦\n" +
                     "Nossos compositores sinceramente criam todos os dias músicas suaves e  melodias leves úteis para tratamentos de spa e massagens.\n" +
-                    "Musica de piano, canções de flauta e harpa moldam aos vídeos maravilhosos que você pode ouvir em casa enquanto você está desfrutando de seu dia de spa com tratamentos de beleza e massagens de corpo pouco para relaxar e descontrair, conhecer sua harmonia interior novamente.\n" +
-                    "#spa #wellness #wellbeing #soothingmusic #reiki #massage #therapy\n",
+                    "Musica de piano, canções de flauta e harpa moldam aos vídeos maravilhosos que você pode ouvir em casa enquanto você está desfrutando de seu dia de spa com tratamentos de beleza e massagens de corpo pouco para relaxar e descontrair, conhecer sua harmonia interior novamente.\n" ,
 
             "♦ Música de Yoga para aliviar o estresse ♦\n" +
-                    "Abra a mente com inspirações da prática de yoga. Se você está procurando algo especial como trilha sonora para seus exercícios de yoga, temos algo que combina perfeitamente para você. Nossas músicas de meditação de yoga misturam melodias orientais, produzidas com instrumentos asiáticos como flautas orientais, sitar indiano, harpa e cordas, com sons de natureza real que ajudá-lo esvaziem sua mente seguindo a rotina de exercícios de yoga para aliviar a ansiedade e o estresse diário que afetam sua vida.\n"+
-                    "#yoga #yogi #yogamusic #meditation #workout #yogatraining #destress #sunsalutation\n",
+                    "Abra a mente com inspirações da prática de yoga. Se você está procurando algo especial como trilha sonora para seus exercícios de yoga, temos algo que combina perfeitamente para você. Nossas músicas de meditação de yoga misturam melodias orientais, produzidas com instrumentos asiáticos como flautas orientais, sitar indiano, harpa e cordas, com sons de natureza real que ajudá-lo esvaziem sua mente seguindo a rotina de exercícios de yoga para aliviar a ansiedade e o estresse diário que afetam sua vida.\n",
 
             "♦ Música para sob pressão, estudar e trabalhar♦\n" +
-                    "Música new age clássica para estudar música e música de fundo para trabalhar são vitais para nosso canal de Buddha Tribe para ajudá-lo a conectar o cérebro durante as horas mais difíceis do dia. Nossa música de concentração para estudar contém ondas alfa e gama para clareza mental, para preparação de exame e trabalhos de casa.\n" +
+                    "Música new age clássica para estudar música e música de fundo para trabalhar são vitais para nosso canal de Buddha Tribe para ajudá-lo a conectar o cérebro durante as horas mais difíceis do dia. Nossa música de concentração para estudar contém ondas alfa e gama para clareza mental, para preparação de exame e trabalhos de casa.\n" ,
                     "Ideal também para enfrentar as tarefas de casa de verão. Nós também fornecemos música instrumental ambiental para escritórios e salas de espera para ouvir durante o trabalho.\n" +
-                    "#study #concentration #meditation #focus #learning #school #homeworks\n",
 
             "♦ Canções de ninar para bebês e adultos e Música Calmante da Gravidez♦\n" +
                     "Alguns de nossos vídeos são criados especificamente para ajudar os bebês a dormir e descansar a noite toda, acalmando-os enquanto choram e os colocam no sono.\n" +
-                    "Estas música de ninar e canções suaves de piano são perfeitas também para crianças inquietas. Não esquecemos também nossas futuras mães que podem contar com uma sessão específica de vídeos de música, com música de gravidez ou musica relaxante lenta para trabalho para ajudár a relaxar e adormecer com seus bebês no ventre.\n" +
-                    "#sleep #relax #deepsleep #musicbox #goodnight #fallasleep #babysleep\n",
+                    "Estas música de ninar e canções suaves de piano são perfeitas também para crianças inquietas. Não esquecemos também nossas futuras mães que podem contar com uma sessão específica de vídeos de música, com música de gravidez ou musica relaxante lenta para trabalho para ajudár a relaxar e adormecer com seus bebês no ventre.\n" ,
 
             "♦ Música new age lounge easy listening ♦\n" +
-                    "Buddha Tribe criou uma sessão especial para todos os amantes do ambiente lounge e música chillout com alguns vídeos sensuais com música de fundo de todos os tipos, porque também é possível relaxar as notas de música eletrônica. Inspirado pelo famosas coleções do Buddha Bar e Café del Mar, música lounge do Buddha Tribe quer recriar a magia de um pôr do sol do verão de Ibiza através de suas músicas emocionais e sons tropicais.\n" +
-                    "#newage #chillout #buddhabar #cafedelmar #lounge #loungemusic #chill #chillmusic\n",
+                    "Buddha Tribe criou uma sessão especial para todos os amantes do ambiente lounge e música chillout com alguns vídeos sensuais com música de fundo de todos os tipos, porque também é possível relaxar as notas de música eletrônica. Inspirado pelo famosas coleções do Buddha Bar e Café del Mar, música lounge do Buddha Tribe quer recriar a magia de um pôr do sol do verão de Ibiza através de suas músicas emocionais e sons tropicais.\n" ,
+
 
             "♦ Música para ocasiões especiais ♦\n" +
                     "Buddha Tribe pensa em tudo, para sempre ser perfeito em todas as situações.\n" +
-                    "De canções de amor românticas tocadas com piano para suas noites íntimas no Dia dos Namorados, para canções instrumentais tradicionais especiais para a época do Natal, para canções espirituais sagradas para a Páscoa e músicas assustadoras para festas de Halloween, sempre temos a melhor escolha para você.\n"+
-                    "#christmas #halloween # holidays #vacation #valentine #pianomusic #piano #party\n"));
+                    "De canções de amor românticas tocadas com piano para suas noites íntimas no Dia dos Namorados, para canções instrumentais tradicionais especiais para a época do Natal, para canções espirituais sagradas para a Páscoa e músicas assustadoras para festas de Halloween, sempre temos a melhor escolha para você.\n"));
 
 
     @FXML
     public static List<String> itKeywords = new ArrayList<String>(Arrays.asList(
 
             "♦ Rilassamento Profondo con Suoni della Natura ♦\n" +
-                    "Pieno di suoni della natura rilassanti e suoni ispirazionali, la nostra musica rilassante è perfetta per momenti di quiete dopo il lavoro, quando ti senti stanco e sotto stress. Questa musica, ispirata dalle gentili melodie di Enya e dalle vibrazioni sperimentali di Brain Eno, è fantastica come sottofondo per rilassamento guidato, per equilibrare i tuoi chakra e trovare un nuovo equilibrio nella vita. La musica rilassante di Buddha Tribe è un aiuto naturale contro lo stress, combatte gli attacchi di panico e la depressione, facendoti ritrovare la serenità e la gioia.\n" +
-                    "#relax #relaxation #serenity #peacefulmusic #music #stressrelief\n",
+                    "Pieno di suoni della natura rilassanti e suoni ispirazionali, la nostra musica rilassante è perfetta per momenti di quiete dopo il lavoro, quando ti senti stanco e sotto stress. Questa musica, ispirata dalle gentili melodie di Enya e dalle vibrazioni sperimentali di Brain Eno, è fantastica come sottofondo per rilassamento guidato, per equilibrare i tuoi chakra e trovare un nuovo equilibrio nella vita. La musica rilassante di Buddha Tribe è un aiuto naturale contro lo stress, combatte gli attacchi di panico e la depressione, facendoti ritrovare la serenità e la gioia.\n" ,
+
 
             "♦ Meditazione Buddista Zen Tibetana ♦\n" +
                     "Essendo specializzato in musica per meditazione zen, Buddha Tribe può offrirti i migliori video per meditazione su YouTube con una varietà di suoni orientali che ti inducano in uno stato di meditazione profonda. Campane tibetane, cristalli, canti buddisti sono solo alcuni dei caratteristici suoni asiatici che potrai sentire mentre ascolti queste canzoni per rilassare la mente mentre mediti, per aiutarti a raggiungere l'illuminazione e diventare perfettamente cosciente del tuo essere.\n",
 
             "♦ Benessere & Spa ♦\n" +
-                    "I nostri compositori creano ogni giorno musiche gentile e leggere melodie, utili per la spa, trattamenti o massaggi. Pianoforte, flauto e arpa danno vita a video meravigliosi che puoi ascoltare gratis a casa, o mentre ti godi una giornata spa con trattamenti di bellezza, piccoli massaggi per rilassarti e rilasciare lo stress, ridanandoti la tua naturale armonia.\n" +
-                    "#spa #wellness #wellbeing #soothingmusic #reiki #massage #therapy\n",
+                    "I nostri compositori creano ogni giorno musiche gentile e leggere melodie, utili per la spa, trattamenti o massaggi. Pianoforte, flauto e arpa danno vita a video meravigliosi che puoi ascoltare gratis a casa, o mentre ti godi una giornata spa con trattamenti di bellezza, piccoli massaggi per rilassarti e rilasciare lo stress, ridanandoti la tua naturale armonia.\n" ,
+
 
 
             "♦ Musica Yoga per Rilasciare lo Stress ♦\n" +
-                    "Apri la tua mente con il potere dello Yoga. Se stai cercando qualcosa di speciale che possa fare da sottofondo ai tuoi esercizi di yoga, siamo perfetti per te. Le nostre musiche di meditazione yoga uniscono mix di melodie orientali, prodotte con strumenti Asiatici come flauto, sitar indiano, arpa e altri strumenti a corda, con suoni della natura che ti aiuteranno a svuotare la mente dopo una routine di yoga per alleviare lo stress quotidiano e ansie che influenzano la tua mente.\n" +
-                    "#yoga #yogi #yogamusic #meditation #workout #yogatraining #destress #sunsalutation\n",
+                    "Apri la tua mente con il potere dello Yoga. Se stai cercando qualcosa di speciale che possa fare da sottofondo ai tuoi esercizi di yoga, siamo perfetti per te. Le nostre musiche di meditazione yoga uniscono mix di melodie orientali, prodotte con strumenti Asiatici come flauto, sitar indiano, arpa e altri strumenti a corda, con suoni della natura che ti aiuteranno a svuotare la mente dopo una routine di yoga per alleviare lo stress quotidiano e ansie che influenzano la tua mente.\n" ,
+
 
 
             "♦ Musica per Studio e il Lavoro Sotto Stress ♦\n" +
-                    "La Musica Classica new age per studiare e il sottofondo musicale per uffici sono vitali al nostro canale per aiutarti a connettere il cervello durante le ore più impegnative del giorno. La nostra musica per concentrarsi contiene onde alfa e gamma per il potere della mente, per preparare esami e fare i compiti a casa. Ideale anche per i compiti delle vacanze. Offriamo anche una vasta selezione di musica ambient strumentale per uffici e sale d'aspetto da ascoltare mentre si lavora.\n" +
-                    "#study #concentration #meditation #focus #learning #school #homeworks\n",
+                    "La Musica Classica new age per studiare e il sottofondo musicale per uffici sono vitali al nostro canale per aiutarti a connettere il cervello durante le ore più impegnative del giorno. La nostra musica per concentrarsi contiene onde alfa e gamma per il potere della mente, per preparare esami e fare i compiti a casa. Ideale anche per i compiti delle vacanze. Offriamo anche una vasta selezione di musica ambient strumentale per uffici e sale d'aspetto da ascoltare mentre si lavora.\n" ,
 
             "♦ Ninne Nanne per Adulti o Bambini e Rilassanti Canzoni per Gravidanza ♦\n" +
-                    "Alcuni dei nostri video sono stati specificamente creati per aiutare i bambini ad addormentarsi e dormire tutta la notte, calmandoli quando piangono e facendoli riposare. Queste melodie di carillon e pianoforte sono perfette anche per calmare i bimbi iperattivi. Non dimentichiamo le future mamme, che possono contare su una linea di video studiati per aiutarle ad addormentarsi durante i nove mesi della gravidanza.\n" +
-                    "#sleep #relax #deepsleep #musicbox #goodnight #fallasleep #babysleep\n",
+                    "Alcuni dei nostri video sono stati specificamente creati per aiutare i bambini ad addormentarsi e dormire tutta la notte, calmandoli quando piangono e facendoli riposare. Queste melodie di carillon e pianoforte sono perfette anche per calmare i bimbi iperattivi. Non dimentichiamo le future mamme, che possono contare su una linea di video studiati per aiutarle ad addormentarsi durante i nove mesi della gravidanza.\n" ,
+
 
 
             "♦ New Age Lounge Easy Listening ♦\n" +
-                    "Buddha Tribe ha creato una collezione di musica ambient lounge per tutti gli amanti del chill, con dei video sensuali con sottofondo musicale di tutti i tipo, perché voi possiate rilassarvi ascoltando le note della nostra musica elettronica. Con i suoni ispirati alle canzoni di Buddha Bar e Cafè del Mar, la musica lounge di Buddha Tribe vuole spingerti a ricreare la magica atmosfera vissuta di fronte a un emozionante tramonto tropicale a Ibiza.\n" +
-                    "#newage #chillout #buddhabar #cafedelmar #lounge #loungemusic #chill #chillmusic\n",
+                    "Buddha Tribe ha creato una collezione di musica ambient lounge per tutti gli amanti del chill, con dei video sensuali con sottofondo musicale di tutti i tipo, perché voi possiate rilassarvi ascoltando le note della nostra musica elettronica. Con i suoni ispirati alle canzoni di Buddha Bar e Cafè del Mar, la musica lounge di Buddha Tribe vuole spingerti a ricreare la magica atmosfera vissuta di fronte a un emozionante tramonto tropicale a Ibiza.\n" ,
 
 
             "♦ Musica per le Occasioni Speciali ♦\n" +
-                    "Buddha Tribe pensa sempre a tutto, e si prepara per ogni occasione. Che siano romantiche canzoni d'amore suonate durante una intima notte di San Valentino, dei canti di Natale ascoltati durante le feste Natalizie, delle melodie sacre per Pasqua o un sottofondo spaventoso per le tue feste di Halloween, qui potrai sempre trovare quello che cerchi!\n" +
-                    "#christmas #halloween # holidays #vacation #valentine #pianomusic #piano #party\n"));
+                    "Buddha Tribe pensa sempre a tutto, e si prepara per ogni occasione. Che siano romantiche canzoni d'amore suonate durante una intima notte di San Valentino, dei canti di Natale ascoltati durante le feste Natalizie, delle melodie sacre per Pasqua o un sottofondo spaventoso per le tue feste di Halloween, qui potrai sempre trovare quello che cerchi!\n"));
 
 
     public enum enConstantFields {
 
-        EN_FIRST_SENTENCE("✅ Full album on iTunes & Apple Music: "),
+        EN_FIRST_SENTENCE("⏩ Full album on iTunes & Apple Music:  "),
 
-        EN_SECOND_SENTENCE("✅ Join the community: http://meditationrelaxclub.com/"),
+        EN_SECOND_SENTENCE("⏩  Join the community: http://meditationrelaxclub.com/"),
 
 
         EN_TOP_DESCRIPTION("\uD83C\uDF1F Social Connections: \n" +
@@ -256,11 +223,11 @@ public class BuddhaConstants {
 
     public enum esConstantFields {
 
-        ES_FIRST_SENTENCE("✅ Album completo en iTunes y Apple Music:  "),
+        ES_FIRST_SENTENCE("⏩ Album completo en iTunes y Apple Music:  "),
 
-        ES_SECOND_SENTENCE("✅ ¡Únase a la comunidad!: http://meditationrelaxclub.com/"),
+        ES_SECOND_SENTENCE("⏩ ¡Únase a la comunidad!: http://meditationrelaxclub.com/"),
 
-        ES_TOP_DESCRIPTION("\uD83D\uDC4D Redes Sociales: \n" +
+        ES_TOP_DESCRIPTION("\uD83C\uDF1F Redes Sociales: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -308,9 +275,9 @@ public class BuddhaConstants {
 
     public enum deConstantFields {
 
-        DE_FIRST_SENTENCE ("⏩  Das ganze Album in iTunes und AppleMusic: "),
+        DE_FIRST_SENTENCE ("⏩ Das ganze Album in iTunes und AppleMusic: "),
 
-        DE_SECOND_SENTENCE ("⏩  Betritt unsere Gemeinschaft: http://meditationrelaxclub.com/"),
+        DE_SECOND_SENTENCE ("⏩ Betritt unsere Gemeinschaft: http://meditationrelaxclub.com/"),
 
         DE_TOP_DESCRIPTION ("\uD83C\uDF1F Folgen Sie uns auf:\n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -366,9 +333,9 @@ public class BuddhaConstants {
 
     public enum ptConstantFields {
 
-        PT_FIRST_SENTENCE ("⏩  Album completo no iTunes & Apple Music: "),
+        PT_FIRST_SENTENCE ("⏩ Album completo no iTunes & Apple Music: "),
 
-        PT_SECOND_SENTENCE ("⏩  Faça parte da comunidade: http://meditationrelaxclub.com/"),
+        PT_SECOND_SENTENCE ("⏩ Faça parte da comunidade: http://meditationrelaxclub.com/"),
 
         PT_TOP_DESCRIPTION ("\uD83C\uDF1F Conexões Social: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
@@ -416,9 +383,9 @@ public class BuddhaConstants {
 
     public enum itConstantFields {
 
-        IT_FIRST_SENTENCE("⏩  Album completo su iTunes & AppleMusic: "),
+        IT_FIRST_SENTENCE("⏩ Album completo su iTunes & AppleMusic: "),
 
-        IT_SECOND_SENTENCE("⏩  Unisciti alla community: http://meditationrelaxclub.com/"),
+        IT_SECOND_SENTENCE("⏩ Unisciti alla community: http://meditationrelaxclub.com/"),
 
         IT_TOP_DESCRIPTION ("\uD83C\uDF1F I Nostri Social: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +

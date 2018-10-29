@@ -123,7 +123,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                //I build a list of integers of size this.enKeywords
+                // Build a list of integers of size this.enKeywords
                 list = new ArrayList<Integer>(MrcConstants.enKeywords.size());
                 for (int i = 1; i <= MrcConstants.enKeywords.size(); i++) {
                     list.add(i);

@@ -35,7 +35,7 @@ public class GenDesController {
     @FXML
     private ChoiceBox<String> choiceBoxLanguage;
 
-    private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "ES", "DE", "IT", "PT", "FR");
+    private ObservableList<String> obsList = FXCollections.observableArrayList("EN", "IT", "DE", "ES", "PT", "FR");
 
     @FXML
     private ChoiceBox<String> choiceBoxChannel;
@@ -97,6 +97,7 @@ public class GenDesController {
         String tmp = upcTextField.getText();
         String tmpFormat = tmp.trim();
         String link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
+                        https://itunes.apple.com/lookup?upc=720642462928
         System.out.println("LINK: " + link);
 
         Model model = new Model(this.choiceBoxLanguage.getValue(),  this.choiceBoxChannel.getValue(), this.descriptionTextArea.getText());
