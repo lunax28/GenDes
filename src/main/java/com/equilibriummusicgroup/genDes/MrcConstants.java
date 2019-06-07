@@ -54,30 +54,46 @@ public class MrcConstants {
 
     @FXML
     public static List<String> deKeywords = new ArrayList<String>(Arrays.asList("►Meditation und Achtsamkeit◄\n" +
-            "Instrumentale Hintergrundmusik für Meditation Zufluchtsort. Diese Musik ist perfekt, eine transzendentale Atmosphäre in deinem Meditation Zimmer zu nachschaffen. Das ist sehr gut für Achtsamkeitsmeditation und buddhistische Meditation. Diese Musik wird von der ostasiatischen Musik inspiriert, mit Konzentrationsklängen der tibetischen Klangschalen und Gesänge von tibetischen Mönchen, aber auch Naturgeräusche wie Vogelgezwitscher und Meeresrauschen. Diese sanfte Musik ist perfekt für Deepak Chopra und Osho geführte Meditation mit schamanischen Musik für Körper, Seele und Geist.\n", "►Entspannungsmusik◄\n" +
-            "Entspannung ist ein wichtiger Teil der Erfahrung von Meditation Relax Club. Wir haben wunderbare Lieder und schöne Videos mit beruhigenden Bildern. Diese Instrumentalmusik ist stark von Enya und anderen New Age Musik Guru inspiriert, mit Harfenmusik, klassischen Klavier Musik zur Entspannung und Flöte Melodien mit Naturgeräuschen für eine Momente des Friedens von Stress und Angst. Wichtig in unserer Produktion sind die geführte Entspannungen, die du auf dem Kanal finden kannst, mit beruhigenden Stimmen und ätherischer Musik.\n", "►Orientalische Zen Musik◄\n" +
-            "Indien, China und Japan: diese orientalischen Länder haben eine lange Tradition der Entspannungsmusik zur Meditation. Hier kannst du traditionelle Musik aus Orient finden, aber auch neue Interpretationen der lokalen Traditionen. Die Instrumente diese Meditationsmusik sind: Shakuhachi Flöte, Hang Drum, Koto, Sitar, Guzheng, Duduk. Die ganze Sammlung dieser orientalischen Musik ist zum Stress abbauen, für ein Leben der Freude und aussagekräftige Erfahrung.\n", "►Schlafmusik zum Träumen und Ausruhen◄\n" +
-            "Schlaflieder und sanfte beruhigende Musik mit Entspannungsklängen zum einschlafen. Einige dieser Lieder enthalten Töne und Frequenzen in der Nacht zum schlafen und entspannen, gegen Schlafstörungen wie Schlaflosigkeit. Unsere Schlafmusik wurde geschaffen, um dir zu helfen, schneller zu schlafen und eine erholsame Nacht zu verbringen. Wir haben auch Playlists mit Wiegenlieder für Babys und Kleinkinder mit Glockenspiel durch die Nacht zum schlafen.\n", "►Binaurale Beats und α, β, γ, δ, θ Gehirnwellen◄\n" +
-            "Binaurale Beats und isochronische Töne sind spezielle Klänge, die in bestimmten Bereichen von Hertz emittiert werden. Diese heilende Frequenzen sind oft kaum vom menschlichen Ohr hörbar, aber ihre Vibrationen sind mit der gleichen Frequenz synchronisiert, an der unser Gehirn arbeitet. Unsere Audio haben Delta Wellen, Gamma und Alpha Wellen, Theta und Beta Wellen und sie haben verschiedene Nutzungen. Besser schlafen, konzentrieren, entspannen und chillen, Verbesserung der Studie und Gedächtnis, Meditation und Wohlfühlung. Sehr bekannt sind auch die Solfeggio Frequenzen und Schumann Resonanz.\n", "►Musik zum Lernen für Konzentration◄\n" +
-            "Eine gute Kombination von Gehirnwellen wie Alpha- und Gamma Wellen können dir bei Konzentration, Fokus und Prüfungsvorbereitung helfen, für Stressabbau während der Prüfungssitzungen. Diese Musik ist sehr gut für Hausaufgaben und als Arbeitsmusik im Büro zu hören.\n", "►Spa & Massage Musik◄\n" +
-            "Meditation Relax Club hat auch wunderbare Musik Video Playlist für Spa und Schönheitszentrum. Gut auch für einen Spa Tag zu Hause fūr Schönheits- Spa Behandlungen. Lichte Wellness Spa Musik für Sauna, Thermae und Massage Therapie. Orientalische Lieder schaffen eine Atmosphäre perfekt für Ayurveda, Thai Spa und entspannende Ganzkörpermassage\n", "►Heilung & Reiki◄\n" +
-            "Positive Meditationsmusik ist online verfügbar auf unserem Kanal, um Ihnen zu helfen, positives Denken und Bejahung zu erreichen. Spirituelle Heilmusik und Reiki Meditationsmusik sind mit erhebenden Melodien und himmlischen Klängen für Geist Balance und Zen Vibrationen gemischt, um dich auf ein höheres Bewusstseinsniveau zu bringen. Chakra-Musik ist auch sehr beliebt hier in Meditation Relax Club, für Körper-Geist Balance, die gebrochene Chakras mit tiefen Meditation zu heilen. \n", "►Musik für Yoga Übungen und Pilates Entspannung◄\n" +
-            "Meditation Relax Club hat einige sehr wohltuende Yoga und Pilates Musik, die mit der Hilfe von Experten kreirt wurden. Diese Lieder sind sehr gut für Yoga Kürse, Stretching, Atemübungen und Abkühlen Übungen. Unsere Musik ist auch für die Yoga Sonnengruß Praxis und Yoga Nidra für den Schlaf optimiert. Diese Musik wird von indischen Melodien beeinflusst, mit asiatischen Instrumenten wie Bambus indian Flöte, Sitar und chinesische Musik mit Guzheng und Harfe.\n", "►Klassische Musik für Ferien◄\n" +
+            "Instrumentale Hintergrundmusik für Meditation Zufluchtsort. Diese Musik ist perfekt, um eine transzendentale Atmosphäre in deinem Meditation Zimmer zu nachschaffen. Das ist sehr gut für beide Achtsamkeitsmeditation und buddhistische Meditation. Diese Musik wird von der ostasiatischen Musik inspiriert, mit Konzentrationsklängen der tibetischen Klangschalen und Gesänge von tibetischen Mönchen, aber auch Naturgeräusche wie zum Beispiel Vogelgezwitscher und Meeresrauschen. Diese sanfte Musik ist perfekt für Deepak Chopra und Osho geführte Meditation mit schamanischer Musik für Körper, Seele und Geist.\n", "►Entspannungsmusik◄\n" +
+            "Entspannung ist ein wichtiger Teil der Erfahrung von Meditation Relax Club. Wir haben wunderbare Lieder und schöne Videos mit beruhigenden Bildern. Diese Instrumentalmusik ist stark von Enya und anderen New Age Musik Guru inspiriert, mit Harfenmusik, klassische Klaviermusik zur Entspannung und Flötenmelodien mit Naturgeräuschen für eine spannungsfrei Moment. In unserer Produktion sind die geführte Entspannungen sehr wichtig: du kannst es auf dem Kanal finden, mit beruhigenden Stimmen und ätherischer Musik.\n"+
+"►Orientalische Zen Musik◄\n" +
+            "Indien, China und Japan: diese orientalischen Länder haben eine lange Tradition der Entspannungsmusik zur Meditation. Hier kannst du traditionelle Musik aus Orient finden, aber auch neue Interpretationen der lokalen Traditionen. Die Instrumente diese Meditationsmusik sind: Shakuhachi Flöte, Hang Drum, Koto, Sitar, Guzheng, Duduk. Die ganze Sammlung dieser orientalischen Musik ist zum Stress abbauen, für ein Leben der Freude und aussagekräftige Erfahrungen.\n"+
+"►Schlafmusik zum Träumen und Ausruhen◄\n" +
+            "Schlaflieder und sanfte beruhigende Musik mit Entspannungsklängen zum einschlafen. Einige dieser Lieder enthalten Töne und Frequenzen in der Nacht zum schlafen und entspannen, gegen Schlafstörungen wie zum Beispiel Schlaflosigkeit. Unsere Schlafmusik wurde geschaffen, um dir zu helfen, schneller zu schlafen und eine erholsame Nacht zu verbringen. Wir haben auch Playlisten mit Wiegenlieder für Babys und Kleinkinder mit Glockenspiel um durch die Nacht zu schlafen.\n"+
+"►Binaurale Beats und α, β, γ, δ, θ Gehirnwellen◄\n" +
+            "Binaurale Beats und isochronische Töne sind spezielle Klänge, die in bestimmten Bereichen von Hertz emittiert werden. Diese heilende Frequenzen sind oft kaum vom menschlichen Ohr hörbar, aber ihre Vibrationen sind mit der gleichen Frequenz synchronisiert, an der unser Gehirn arbeitet. Unsere Audio haben Delta Wellen, Gamma und Alpha Wellen, Theta und Beta Wellen, alle mit verschiedene Nutzungen. Besser schlafen, sich konzentrieren, entspannen und chillen, der Studie  und Gedächtnis verbessern, meditieren und wohlfühlen. Sehr bekannt sind auch die Solfeggio Frequenzen und Schumann Resonanz.\n"+
+ "►Musik zum Lernen und sich Konzentrieren◄\n" +
+            "Eine gute Kombination von Gehirnwellen wie Alpha- und Gamma Wellen können dir bei Konzentration, Fokus und Prüfungsvorbereitung helfen, als auch Stress Abbauen während der Prüfung Sitzungen. Diese Musik ist sehr gut als Hintergrund für Hausaufgaben und auch als Arbeitsmusik im Büro.\n"+
+"►Spa & Massage Musik◄\n" +
+            "Meditation Relax Club hat auch wunderbare Musik Video Playlisten für Spa und Schönheitssalon. Gut auch für einen Spa Tag zu Hause fūr Schönheits- Spa Behandlungen. Lichte Wellness Spa Musik für Sauna, Thermen und Massage Therapie. Orientalische Lieder schaffen eine Atmosphäre perfekt für Ayurveda, Thai Spa und entspannende Ganzkörpermassage\n" +
+"►Heilung & Reiki◄\n" +
+            "Positive Meditationsmusik ist online verfügbar auf unserem Kanal, um ihnen zu helfen, positives Denken und Bejahung zu erreichen. Spirituelle Heilmusik und Reiki Meditationsmusik sind mit erhebende Melodien und himmlischen Klängen für Geist Balance und Zen Vibrationen gemischt, um dich auf ein höheres Bewusstseinsniveau zu bringen. Chakra-Musik ist auch sehr beliebt hier in Meditation Relax Club, für Körper-Geist Balance, die gebrochene Chakras mit tiefen Meditation zu heilen. \n"+
+"►Musik für Yoga Übungen und Pilates Entspannung◄\n" +
+            "Meditation Relax Club hat einige sehr wohltuende Yoga und Pilates Musik, die mit der Hilfe von Experten kreierte wurden. Diese Lieder sind sehr gut für Yoga Kurse, Stretching, Atemübungen und Abkühlen Übungen. Unsere Musik ist auch für die Yoga Sonnengruß Praxis und Yoga Nidra für den Schlaf optimiert. Diese Musik wird von indischen Melodien beeinflusst, mit asiatischen Instrumenten wie Bambus indian Flöte, Sitar und chinesische Musik mit Guzheng und Harfe.\n"+
+"►Klassische Musik für die Ferien◄\n" +
             "Wenn diese Zeit des Jahres kommt, bietet Meditation Relax Club traditionelle Musik, keltische Musik, Klavierlieder, klassische und nicht-klassische Volksmusik, um die Urlaubsmomente des Zuhörers zu verdeutlichen. So haben wir Weihnachtsmusik, Musik zum Erntedankfest, Halloween und Ostern, mit Instrumentalmusik zum entspannen, chillen und Stress abbauen.\n"));
 
 
     @FXML
-    public static List<String> ptKeywords = new ArrayList<String>(Arrays.asList("►Musica de meditação e de Atenção plena◄\n" +
-            "Musica de fondo instrumental para ouvir no espaço de meditação. Estas músicas são inspiradas pela música do Leste Asiático, com sons de concentração como sinos tibetanos e canto dos monges tibetanos e outros sons da natureza como os sons dos pássaros cantando e os sons da água. Hilo musical ideal para as meditações guiadas de Deepak Chopra e Osho, com referências à música xamânica para curar o seu corpo, espírito e alma.\n", "►Musica Relaxante◄\n" +
-            "O relaxamento é uma parte muito importante da Meditação Relax Club, que dá seus ouvintes e seguidores vídeos com belas imagens e músicas suaves para ouvir. Tudo isso música de relaxamento encontra inspiração na música de Enya e outro guru da música new age, com sons da harpa, musica de piano clássico relaxante e melodias da flauta com sons naturais para as pessoas que procuram um momento de paz, longe do stress e ansiedades. Em nossa produção também são relaxamento guiados com vozes suaves e música etéreas.\n", "►Musica Zen Oriental◄\n" +
-            "Índia, China e Japão são três países com uma longa tradição de música para relaxamento e meditação. Neste canal, há tanto a música tradicional que a música reinterpretado segundo a tradição local do Oriente. Os instrumentos mais utilizados são flauta shakuhachi, hang drum, koto, sitar, guzheng e duduk para uma turnê completa no Extremo Oriente contra o stress, para uma experiência significativa e alegria.\n", "►Musica para Dormir, Sonhar e Descansar◄\n" +
-            "Musica para dormir e canções suaves com sons relaxantes para dormir profundamente. Algumas dessas canções têm sons e freqüências especiais para dormir e descansar toda a noite, como uma ajuda natural contra distúrbios do sono como insônia. Toda a nossa música para dormir ajuda a adormecer mais rápido e passar uma noite repousante e tranquila. Meditation Relax Club também criou alguns lista de reprodução para bebês e crianças com carrilhão.\n", "►Sons binaurais e ondas cerebrais α, β, γ, δ, θ◄\n" +
-            "Ritmo binaural e tons isocrônico são sons especiais feitas em intervalos específicos de hertz. Aqui música com vibrações particulares para curar a alma eo espírito, com ondas delta para dormir, ondas gamma, alfa, theta e beta, cada um com um uso específico, por exemplo, para dormir, concentrar-se, relaxar, melhorar a estudar, meditar e libertar a mente. O mais famoso desses freqüências são a frequência de teoria musical e ressonância Schumann.\n", "►Musica para estudar e concentrarse◄\n" +
-            "Uma boa combinação de ondas cerebrais como alfa e gama podem ajudar com concentração para a preparação de exames, com musica para estudar e aliviar o estresse durante a sessão de exame. A musica classica para estudar de Meditation Relax Club é usado para fazer lição de casa o para trabalhar no escritório.\n", "►Musica Spa para Massagens◄\n" +
-            "Meditation Relax Club criou algumas lista de reprodução para spa e centro de beleza. Você também pode ouvir estas canções calmante em casa para um dia de spa com tratamentos de bem-estar. Nossa música suave é perfeita para sauna e spa para massagem terapêutica. Música do Oriente irá criar uma atmosfera perfeita para ayurveda, thai spa e massagens relaxantes.\n", "►Musica Reiki◄\n" +
-            "Ouvir o nosso canal de música para meditação positiva para alcançar o poder do pensamento positivo e afirmação. A música reiki e a música de cura misturado com melodias edificantes e sons celestiais são para o equilíbrio da mente e vibrações zen. Importante também é a música chakra para curar os chakras do corpo humano com a meditação profunda.\n", "►Musica para Exercicios de Yoga e Pilates◄\n" +
-            "Com a colaboração do maior especialistas de yoga e pilates, criamos as canções perfeitas para essas disciplinas. As musicas relaxantes de yoga são para fazer exercícios, stretching de pilates e respiração natural. Essas músicas suaves também são projetados para saudação ao sol e yoga nidra para dormir, com a música da Índia com instrumentos asiáticos como a flauta de bambu indiana, sitar e guzheng chinesa e música de harpa.\n", "►Musica Classica de férias◄\n" +
-            "Quando chegam as férias, Meditação Relax Club va a criar a música tradicional para festas como musica de Natal, de Páscoa, Ação de Graças e Halloween, com musica instrumental popular e as melhores musicas tradicionais deste período.\n"));
+    public static List<String> ptKeywords = new ArrayList<String>(Arrays.asList("►Música de meditação e para atenção plena◄\n" +
+            "Música de fundo instrumental para ouvir no espaço de meditação. Essas músicas são inspiradas pela música do Leste Asiático, com os sons para se concentrar como os sinos tibetanos, o canto dos monges tibetanos e outros sons da natureza (o canto dos pássaros e o som da água). Hilo musical ideal para as meditações guiadas de Deepak Chopra e Osho, com referências à música xamânica para curar o seu corpo, espírito e alma.\n" +
+"►Música Relaxante◄\n" +
+            "O relaxamento é uma parte muito importante para Meditação Relax Club, que dá aos seus subscritores vídeos com belas imagens e músicas suaves para ouvir. Essa música de relaxamento encontra inspiração na música de Enya e de outro guru da música New Age, com sons da harpa, música de piano clássico relaxante e melodias da flauta com sons naturais para as pessoas que procuram um momento de paz, longe do stress e ansiedades. Entre a nossa produção há também relaxamento guiados com voz suave e música etéreas.\n",
+"►Música Zen Oriental◄\n" +
+            "Índia, China e Japão são três países com uma longa tradição de música para relaxamento e meditação. Neste canal, há tanto a música tradicional que a música da tradição local do Oriente. Os instrumentos mais utilizados são flauta shakuhachi, hang drum, koto, sitar, guzheng e duduk, tudo para ter uma turnê completa no Extremo Oriente contra o estresse, para ter uma experiência profunda e de bem estar.\n" +
+"►Música para Dormir, Sonhar e Descansar◄\n" +
+            "Música para dormir e canções suaves com sons relaxantes para dormir profundamente. Algumas dessas canções têm sons e frequência especial para dormir e descansar toda a noite, como uma ajuda natural contra os distúrbios do sono e insônia. Toda a nossa música para dormir, ajuda a adormecer mais rápido e passar uma noite de descanso e calma. Meditation Relax Club também criou alguns lista de reprodução para bebês e crianças com carrilhão.\n" +
+ "►Sons binaurais e ondas cerebrais α, β, γ, δ, θ◄\n" +
+            "Ritmo binaural e tons isocrônico são sons especiais feitas em intervalos específicos de Hertz. Aqui há música com vibrações específicas para curar a alma eo espírito, com ondas delta para dormir, ondas gamma, alfa, theta e beta: cada um com um uso específico, por exemplo, para dormir, se concentrar, relaxar, melhorar a estudar, meditar e libertar a mente. A mais conhecida é a frequência de teoria musical e ressonância Schumann.\n" +
+"►Música para estudar e se concentrar◄\n" +
+            "Uma boa combinação de ondas cerebrais como alfa e gama podem ajudar com concentração para a preparação de exames, com música para estudar e aliviar o estresse durante a sessão de exame. A música clássica para estudar de Meditation Relax Club é perfeita para fazer lição de casa o para trabalhar no escritório.\n" +
+"►Música Spa para Massagens◄\n" +
+            "Meditation Relax Club criou algumas lista de reprodução para spa e centro de beleza. Você também pode ouvir essas canções calmante em casa para um dia de spa com tratamentos de bem-estar. Nossa música suave é perfeita para sauna, spa e massagem terapêutica. Música do Oriente vai criar uma atmosfera perfeita para ayurveda, thai spa e massagens relaxantes.\n",
+"►Musica Reiki◄\n" +
+            "Ouvir o nosso canal de música para meditação positiva para alcançar o poder do pensamento positivo e afirmação. A música reiki e a música de cura misturado com melodias edificantes e sons celestiais são para o equilíbrio da mente e vibrações zen. Importante também é a música chakra para curar os chakras do corpo humano com a meditação profunda.\n" +
+"►Música para Exercicios de Yoga e Pilates◄\n" +
+            "Com a colaboração do maior especialistas de yoga e pilates, criámos as canções perfeitas para essas disciplinas. As músicas relaxantes de yoga são realizadas para fazer exercícios, stretching de pilates e respiração natural. Essas músicas suaves também são projetados para saudação ao sol e yoga nidra para dormir: tudo com a música da Índia com instrumentos asiáticos como a flauta de bambu indiana, sitar e guzheng chinesa e música de harpa.\n", "►Música Clássica de férias◄\n" +
+            "Quando chegam as férias, Meditação Relax Club vai a criar a música tradicional para festas como música de Natal, de Páscoa, Ação de Graças e Halloween, com música instrumental popular e as melhores músicas tradicionais daquele período.\n"));
 
 
     @FXML
@@ -129,12 +145,12 @@ public class MrcConstants {
 
     public enum enConstantFields {
 
-        EN_FIRST_SENTENCE("✅ Full album on iTunes & AppleMusic: "),
+        //EN_FIRST_SENTENCE("✅ Full album on iTunes & AppleMusic: "),
 
-        EN_SECOND_SENTENCE("✅ Join the MRC community: http://meditationrelaxclub.com/"),
+        //EN_SECOND_SENTENCE("✅ Join the MRC community: http://meditationrelaxclub.com/"),
 
 
-        EN_TOP_DESCRIPTION("\uD83D\uDC4D Social Connections: \n" +
+  /*      EN_TOP_DESCRIPTION("\uD83D\uDC4D Social Connections: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -147,23 +163,24 @@ public class MrcConstants {
                 " \n" +
                 "\n" +
                 "Some of our best videos are for:\n"),
-
+*/
+        //tenere
         EN_BOTTOM_DESCRIPTION("Meditation Relax Club is also a world wide music label, mother of hundreds of top selling albums across countless nations, which can boast a proud catalog capable of satisfying the musical needs of the most avid and demanding New Age enthusiasts. More Youtube channels have stemmed from the main one, each one of which was tailored to suit a specific need from our public:\n" +
                 "\n" +
                 "☮ Meditate lost in the asian vibes of Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ Fall asleep with the gentle notes of Sleep Music Relax Zone \n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
                 " \uD83C\uDF0A Relax with soft music and nature sounds on RelaxRiver\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+
                 "\n" +
                 "\uD83C\uDF34 Lay back through the enticing ambience of Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Live your most intimate moments with Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Live your most intimate moments with Sensual Music Club\n");
+
 
         private String field;
 
@@ -178,11 +195,11 @@ public class MrcConstants {
 
     public enum esConstantFields {
 
-        ES_FIRST_SENTENCE("✅ Album completo en iTunes y Apple Music: "),
+        //ES_FIRST_SENTENCE("✅ Album completo en iTunes y Apple Music: "),
 
-        ES_SECOND_SENTENCE("✅ Únete a la comunidad de MRC: http://meditationrelaxclub.com/"),
+        //ES_SECOND_SENTENCE("✅ Únete a la comunidad de MRC: http://meditationrelaxclub.com/"),
 
-        ES_TOP_DESCRIPTION("\uD83D\uDC4D Redes Sociales: \n" +
+        /*ES_TOP_DESCRIPTION("\uD83D\uDC4D Redes Sociales: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -194,24 +211,23 @@ public class MrcConstants {
                 "\n" +
                 "Meditation Relax Club no es solo un simple proveedor de música relajante gratis en YouTube. Es sobre todo la mejor y más conocida fuente de música instrumental de meditación para lograr la armonía y la paz interior combinada con el equilibrio en su vida. Tenemos una amplia selección de canciones para la relajación, la meditación profunda, los ejercicios de yoga, el estudio, la concentración, el sueño reparador y los sueños en general y mucho más.\n" +
                 "\n" +
-                "Algunos de los videos mejores son: \n"),
+                "Algunos de los videos mejores son: \n"),*/
 
         ES_BOTTOM_DESCRIPTION("Meditation Relax Club es también una casa discográfica mundial, madre de cientos de los más vendidos álbumes de Música Relajante New Age en innumerables naciones, que pueden jactarse de un catálogo vasto capaz de satisfacer las necesidades musicales de los más ávidos y exigentes oyentes de música New Age. Diversos canales de Youtube se han creados de lo principal, cada uno de los cuales cuidadosamente adaptado para satisfacer las necesidades específicas de nuestro público:\n" +
                 "\n" +
                 "☮ Medite perdido en las vibraciones asiáticas de Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ Duerma con las notas suaves de Sleep Music Relax Zone \n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
                 " \uD83C\uDF0A Relájese con la música suave y los sonidos de la naturaleza en RelaxRiver\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+
                 "\n" +
                 "\uD83C\uDF34 Recuéstese con la Música Ambient de Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Vive tus momentos más íntimos con Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Vive tus momentos más íntimos con Sensual Music Club\n");
 
 
         private String field;
@@ -227,11 +243,11 @@ public class MrcConstants {
 
     public enum deConstantFields {
 
-        DE_FIRST_SENTENCE ("✅ Volles Album auf iTunes & AppleMusic: "),
+        //DE_FIRST_SENTENCE ("✅ Volles Album auf iTunes & AppleMusic: "),
 
-        DE_SECOND_SENTENCE ("✅ MRC community beitreten: http://meditationrelaxclub.com/"),
+        //DE_SECOND_SENTENCE ("✅ MRC community beitreten: http://meditationrelaxclub.com/"),
 
-        DE_TOP_DESCRIPTION (" \uD83D\uDC4D Soziale Netzwerke: \n" +
+        /*DE_TOP_DESCRIPTION (" \uD83D\uDC4D Soziale Netzwerke: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -241,28 +257,28 @@ public class MrcConstants {
                 "► https://open.spotify.com/artist/39t4EeLBfpT72UQJVkIeuj\n" +
                 "► http://www.deezer.com/artist/4624253\n" +
                 "\n" +
-                "Meditation Relax Club ist nicht nur ein freier entspannender Musik YouTube Kanal, aber er ist der beste und bekannte Musik-Stream der Meditations- und Entspannungsmusik für inneren Frieden und Harmonie für dein Leben, sobald du wählst, welche Musik du spielen möchtest. Wir haben viele Videos mit Tiefenentspannungsmusik zur Meditation, Yoga Übungen, Studien und Konzentration, aber auch Schlaf Musik zum träumen oder Stress abbauen, heilende Musik und vieles mehr.\n" +
+                "Meditation Relax Club ist nicht nur ein freier entspannender Musik YouTube Kanal, aber er ist der beste und bekannte Musik-Stream der Meditations- und Entspannungsmusik für inneren Frieden und Harmonie für dein Leben, sobald du wählst, welche Musik du spielen möchtest. Wir haben viele Videos mit Tiefenentspannung Musik zur Meditation, Yoga Übungen, Studien und Konzentration, aber auch Schlaf Musik zum träumen oder Stress abbauen, heilende Musik und vieles mehr.\n" +
                 "\n" +
                 "\n" +
                 " \n" +
-                "Die beste Videos sind für:\n"),
+                "Die beste Videos sind für:\n"),*/
 
         DE_BOTTOM_DESCRIPTION ("Meditation Relax Club ist auch ein weltbekanntes Label, Mutter des hunderts- n. 1 Album über unzählige Nationen, die einen stolzen Katalog, der in der Lage ist, die musikalischen Bedürfnisse der begehrtesten und anspruchsvollsten New Age-Enthusiasten zu erfüllen. Meditation Relax Club hat andere YouTube-Kanäle erstellt um die Bedürfnisse aller unserer Kunden zu erfüllen:\n" +
                 "\n" +
                 "☮ Hör die asiatische Vibrationen mit Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ Schlaf mit der sanften Noten von Sleep Music Relax Zone ein \n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
-                " \uD83C\uDF0A Entspannt mit beruhigenden Musik und der Naturgeräuschen von Relax River\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+                " \uD83C\uDF0A Entspann dich mit beruhigenden Musik und der Naturgeräuschen von Relax River\n" +
+
                 "\n" +
                 "\uD83C\uDF34 Erlebt die Ambience Atmosphäre unserer Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Leb deine intimsten Momente mit Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Leb deine intimsten Momente mit Sensual Music Club\n");
+
 
 
         private String field;
@@ -278,11 +294,11 @@ public class MrcConstants {
 
     public enum ptConstantFields {
 
-        PT_FIRST_SENTENCE ("✅ Album completo no iTunes & AppleMusic: "),
+        //PT_FIRST_SENTENCE ("✅ Album completo no iTunes & AppleMusic: "),
 
-        PT_SECOND_SENTENCE ("✅ Faça parte da comunidade MRC: http://meditationrelaxclub.com/"),
+        //PT_SECOND_SENTENCE ("✅ Faça parte da comunidade MRC: http://meditationrelaxclub.com/"),
 
-        PT_TOP_DESCRIPTION ("\uD83D\uDC4D Conexões Social:\n" +
+        /*PT_TOP_DESCRIPTION ("\uD83D\uDC4D Conexões Social:\n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -294,27 +310,28 @@ public class MrcConstants {
                 "\n" +
                 "Meditation Relax Club não é apenas um provedor de música relaxante gratuita no YouTube. É o mais famoso canal de música de meditação instrumental para trazer harmonia, paz e equilíbrio em sua vida. Você só escolher o tipo de música para ouvir. Temos uma ampla seleção de músicas para relaxamento, meditação profunda, exercícios de yoga, estudo e concentração, sono e sonhos repousantes, música para desestresar, música de cura e muito mais.\n" +
                 "\n" +
-                "Alguns dos nossos melhores vídeos são para:\n"),
+                "Alguns dos nossos melhores vídeos são para:\n"),*/
 
-        PT_BOTTOM_DESCRIPTION ( "Meditation Relax Club é um dos rótulos mais conhecidos de musica new age relaxante, mãe de centenas de produção n.1 em todo o mundo, apresentando um catálogo próspera para todos os gostos. Outros canais do Youtube nasceram desse projeto para atender às necessidades e expectativas de uma crescente público:\n" +
+        PT_BOTTOM_DESCRIPTION ( "Meditation Relax Club é um dos canais mais conhecidos de música new age relaxante, mãe de centenas de produção n.1 em todo o mundo, apresentando um catálogo próspera para todos os gostos. Outros canais do Youtube nasceram desse projeto para atender às necessidades e expectativas de uma crescente público:\n" +
                 "\n" +
                 "☮ Pratique meditação entre as melodias místicas de Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ Adormeça entre as notas doces de Sleep Music Relax Zone \n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
                 "\uD83C\uDF20  Aproveite dos longos vídeos de Sleep Music Lullabies\n" +
-                "♫ https://www.youtube.com/sleepmusiclullabies\n" +
+
                 "\n" +
                 " \uD83C\uDF0A Relaxar com a musica soft e os sons da natureza de Relax River\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+
                 "\n" +
                 "\uD83C\uDF34 Deixe-se seduzir pela magia da Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Acompanhar os seus momentos mais íntimos com Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Acompanhar os seus momentos mais íntimos com Sensual Music Club\n");
+
+
 
         private String field;
 
@@ -329,11 +346,11 @@ public class MrcConstants {
 
     public enum itConstantFields {
 
-        IT_FIRST_SENTENCE("✅ Album Completo su iTunes & AppleMusic: "),
+        //IT_FIRST_SENTENCE("✅ Album Completo su iTunes & AppleMusic: "),
 
-        IT_SECOND_SENTENCE("✅ Unisciti alla community di MRC: http://meditationrelaxclub.com/"),
+        //IT_SECOND_SENTENCE("✅ Unisciti alla community di MRC: http://meditationrelaxclub.com/"),
 
-        IT_TOP_DESCRIPTION (" \uD83D\uDC4D Connessioni Social: \n" +
+/*        IT_TOP_DESCRIPTION (" \uD83D\uDC4D Connessioni Social: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -347,25 +364,23 @@ public class MrcConstants {
                 "\n" +
                 " \n" +
                 "Alcuni dei nostri migliori video sono:\n" +
-                " \n"),
+                " \n"),*/
+
         IT_BOTTOM_DESCRIPTION("Meditation Relax Club è tra le più note etichette di musica new age rilassante, madre di centinaia di produzioni n. 1 nelle classifiche di tutto il mondo, vantando un catalogo fiorente per tutti i gusti. Da questo progetto sono nati altri canali Youtube più settoriali per soddisfare le esigenze e le aspettative di un pubblico in continua espansione:\n" +
-                "\n" +
-                "\n" +
-                "\n" +
+
                 "☮ Medita immergendoti nelle melodie mistiche di Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ Addormentati tra le dolci note di Sleep Music Relax Zone\n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
                 " \uD83C\uDF0A Rilassati con la musica soft e i suoni della natura di Relax River\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+
                 "\n" +
                 "\uD83C\uDF34 Lasciati sedurre dall’atmosfera magica di Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Accompagna i tuoi momenti più intimi con Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Accompagna i tuoi momenti più intimi con Sensual Music Club\n");
 
         private String field;
 
@@ -380,12 +395,12 @@ public class MrcConstants {
 
     public enum frConstantFields {
 
-        FR_FIRST_SENTENCE("✅ Album complet sur iTunes & AppleMusic: "),
+        //FR_FIRST_SENTENCE("✅ Album complet sur iTunes & AppleMusic: "),
 
-        FR_SECOND_SENTENCE("✅ Rejoignez la communauté MRC: http://meditationrelaxclub.com/"),
+        //FR_SECOND_SENTENCE("✅ Rejoignez la communauté MRC: http://meditationrelaxclub.com/"),
 
 
-        FR_TOP_DESCRIPTION("\uD83D\uDC4D Connexions sociales: \n" +
+/*        FR_TOP_DESCRIPTION("\uD83D\uDC4D Connexions sociales: \n" +
                 "ⓕ Facebook: https://www.facebook.com/MeditationRelaxClub\n" +
                 "ⓘ Instagram: https://www.instagram.com/meditationrc\n" +
                 "ⓣ Twitter: https://twitter.com/MeditationRClub\n" +
@@ -399,25 +414,23 @@ public class MrcConstants {
                 "\n" +
                 " \n" +
                 "\n" +
-                "Certaines de nos vidéos sont idéales pour:\n"),
+                "Certaines de nos vidéos sont idéales pour:\n"),*/
 
         FR_BOTTOM_DESCRIPTION("Meditation Relax Club est aussi un label de musique du monde entier, mère de centaines d'albums les plus vendus à travers d'innombrables nations, qui peuvent se vanter d'un fier catalogue capable de satisfaire les besoins musicaux des passionnés les plus avides et exigeants. Plus de chaînes Youtube ont découlé de la principale, chacune d'entre elles a été adaptée pour répondre à un besoin spécifique de notre public:\n" +
-                "\n" +
-                "\n" +
+
                 "☮ Méditer bercé par les notes orientales de la musique de Buddha Tribe\n" +
-                "♫ https://www.youtube.com/buddhatribe\n" +
+
                 "\n" +
                 "✿ S'endormir avec les notes douces de Sleep Music Relax Zone \n" +
-                "♫ https://www.youtube.com/sleepmusicrelaxzone\n" +
+
                 "\n" +
                 " \uD83C\uDF0A Détente avec la musique douce et les sons de la nature sur RelaxRiver\n" +
-                "♫ https://www.youtube.com/relaxriverofficial\n" +
+
                 "\n" +
                 "\uD83C\uDF34Se reposer à travers l'ambiance séduisante de Chillout Lounge Relax\n" +
-                "♫ https://www.youtube.com/chilloutloungerelax\n" +
+
                 "\n" +
-                "\uD83D\uDC44 Vivre les moments les plus intimes avec Sensual Music Club\n" +
-                "♫ https://www.youtube.com/sensualmusicclub\n");
+                "\uD83D\uDC44 Vivre les moments les plus intimes avec Sensual Music Club\n");
 
         private String field;
 

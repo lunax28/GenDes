@@ -26,7 +26,7 @@ public class Model {
     public String getResult(String link) throws InterruptedException, CustomException {
 //        Thread.sleep(2000);
         String finalDescription = "";
-        iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
+        /*iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
 
         JsonObject json = apiClass.getJson(link);
 
@@ -37,7 +37,9 @@ public class Model {
         this.albumURL = parseJson(json);
         if(albumURL == null){
             throw new CustomException("No Albums associated with that UPC!");
-        }
+        }*/
+
+        this.albumURL = link;
 
         if (!albumURL.isEmpty()) {
 
@@ -112,14 +114,15 @@ public class Model {
         switch (this.language) {
 
             case ("EN"):
-                builder = new StringBuilder(MrcConstants.enConstantFields.EN_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+                builder = new StringBuilder();
+                //builder = new StringBuilder(MrcConstants.enConstantFields.EN_FIRST_SENTENCE.getField());
+                //builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
+                //builder.append("\n" + MrcConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
+                //builder.append(MrcConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -153,14 +156,15 @@ public class Model {
                 break;
 
             case ("ES"):
-                builder = new StringBuilder(MrcConstants.esConstantFields.ES_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+                builder = new StringBuilder();
+                //builder = new StringBuilder(MrcConstants.esConstantFields.ES_FIRST_SENTENCE.getField());
+                //builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.esConstantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
+                //builder.append("\n" + MrcConstants.esConstantFields.ES_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.esConstantFields.ES_TOP_DESCRIPTION.getField());
+                //builder.append(MrcConstants.esConstantFields.ES_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -191,15 +195,16 @@ public class Model {
                 break;
 
             case ("DE"):
+                builder = new StringBuilder();
 
-                builder = new StringBuilder(MrcConstants.deConstantFields.DE_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+               // builder = new StringBuilder(MrcConstants.deConstantFields.DE_FIRST_SENTENCE.getField());
+               // builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.deConstantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
+               // builder.append("\n" + MrcConstants.deConstantFields.DE_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.deConstantFields.DE_TOP_DESCRIPTION.getField());
+               // builder.append(MrcConstants.deConstantFields.DE_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -230,14 +235,15 @@ public class Model {
                 break;
 
             case ("PT"):
-                builder = new StringBuilder(MrcConstants.ptConstantFields.PT_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+                builder = new StringBuilder();
+               // builder = new StringBuilder(MrcConstants.ptConstantFields.PT_FIRST_SENTENCE.getField());
+               // builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.ptConstantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
+                //builder.append("\n" + MrcConstants.ptConstantFields.PT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.ptConstantFields.PT_TOP_DESCRIPTION.getField());
+                //builder.append(MrcConstants.ptConstantFields.PT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -267,14 +273,15 @@ public class Model {
                 break;
 
             case ("IT"):
-                builder = new StringBuilder(MrcConstants.itConstantFields.IT_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+                builder = new StringBuilder();
+               // builder = new StringBuilder(MrcConstants.itConstantFields.IT_FIRST_SENTENCE.getField());
+               // builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.itConstantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
+               // builder.append("\n" + MrcConstants.itConstantFields.IT_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.itConstantFields.IT_TOP_DESCRIPTION.getField());
+                //builder.append(MrcConstants.itConstantFields.IT_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
@@ -304,14 +311,15 @@ public class Model {
                 break;
 
             case ("FR"):
-                builder = new StringBuilder(MrcConstants.frConstantFields.FR_FIRST_SENTENCE.getField());
-                builder.append(this.albumURL);
+                builder = new StringBuilder();
+               // builder = new StringBuilder(MrcConstants.frConstantFields.FR_FIRST_SENTENCE.getField());
+                //builder.append(this.albumURL);
 
-                builder.append("\n" + MrcConstants.frConstantFields.FR_SECOND_SENTENCE.getField() + "\n\n");
+               // builder.append("\n" + MrcConstants.frConstantFields.FR_SECOND_SENTENCE.getField() + "\n\n");
 
                 builder.append(this.inputDescription + "\n\n");
 
-                builder.append(MrcConstants.frConstantFields.FR_TOP_DESCRIPTION.getField());
+                //builder.append(MrcConstants.frConstantFields.FR_TOP_DESCRIPTION.getField());
 
                 builder.append("\n\n");
 
