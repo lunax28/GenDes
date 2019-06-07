@@ -123,11 +123,11 @@ public class BuddhaConstants {
                 "Essas música de ninar e canções suaves de piano são perfeitas também para crianças inquietas. Não esquecemos também nossas futuras mães que podem contar com uma sessão específica de vídeos de música, com música de gravidez ou música relaxante lenta para trabalho para ajudar a relaxar e adormecer os seus bebês.\n" ,
 
             "♦ Música new age lounge easy listening ♦\n" +
-                "Buddha Tribe criou uma sessão especial para todos os amantes do ambiente lounge e música chillout com alguns vídeos sensuais com música de fundo de todos os tipos, porque também é possível relaxar as notas de música eletrônica. Inspirado pelo famosas coleções do Buddha Bar e Café del Mar, música lounge do Buddha Tribe quer recriar a magia de um pôr do sol do verão de Ibiza através de suas músicas emocionais e sons tropicais.\n" ,
+                "Buddha Tribe criou um lugar especial para todos os amantes do lounge e da música chillout com alguns vídeos sensuais com música de fundo de todos os tipos: também é possível relaxar as notas de música eletrônica. Inspirado pelo famosas coleções do Buddha Bar e Café del Mar, a música lounge do Buddha Tribe quer recriar a magia de um pôr do sol, do verão e de Ibiza, através sons emocionais e tropicais.\n" ,
 
             "♦ Música para ocasiões especiais ♦\n" +
                 "Buddha Tribe pensa em tudo, para sempre ser perfeito em todas as situações.\n" +
-                "De canções de amor românticas tocadas com piano para suas noites íntimas no Dia dos Namorados, para canções instrumentais tradicionais especiais para a época do Natal, para canções espirituais sagradas para a Páscoa e músicas assustadoras para festas de Halloween, sempre temos a melhor escolha para você.\n"));
+                "Sempre temos a melhor escolha para você: desde as canções de amor românticas tocadas no piano para suas noites íntimas no Dia dos Namorados, até as canções instrumentais tradicionais natalinas, desde as músicas espirituais para a Páscoa, até músicas assustadoras para festas de Halloween, \n"));
 
 
     @FXML
