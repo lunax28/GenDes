@@ -10,104 +10,100 @@ public class SleepConstants {
 
     @FXML
     public static List<String> enKeywords = new ArrayList<String>(Arrays.asList(
+
             "♦ New Age Background to Sleep Deeply ♦\n" +
-            "Brimming with vibrant, inspiring sounds, these tunes will make sure you'll wake up the next morning feeling refreshed and renewed. Our music is greatly inspired by some of the most gentle melodies by Brian Eno in his Music for Airports album. If you suffer from anxiety and need some help to relax before falling asleep, try listening to these songs in the background to fight off anxiety attacks, and to find serenity.\n",
+                "Brimming with vibrant, inspiring sounds, these tunes will make sure you'll wake up the next morning feeling refreshed and renewed. Our music is greatly inspired by some of the most gentle melodies by Brian Eno in his Music for Airports album. If you suffer from anxiety and need some help to relax before falling asleep, try listening to these songs in the background to fight off anxiety attacks, and to find serenity.\n",
 
             "♦ Gentle Classical Melodies ♦\n" +
-            "From Johann Sebastian Bach to Amadeus Mozart, many Classical composers have become well known across the centuries as the fathers of the most famous music to help people sleep. We've gathered some of the most popular classic lullabies, and arranged them ourselves for you to enjoy!\n",
+                "From Johann Sebastian Bach to Amadeus Mozart, many Classical composers have become well known across the centuries as the fathers of the most famous music to help people sleep. We've gathered some of the most popular classic lullabies, and arranged them ourselves for you to enjoy!\n",
 
             "♦ Soothing Instrumental Songs ♦\n" +
-            "We have your usual piano, flute, guitar. But even less conventional instruments, such as the peculiar hang drum or the oriental sitar. Every video carries a story, a song that may have traveled half way across the globe before reaching your ears. And thanks to those tunes, you can relax at night and dream happy dreams.\n",
+                "We have your usual piano, flute, guitar. But even less conventional instruments, such as the peculiar hang drum or the oriental sitar. Every video carries a story, a song that may have traveled half way across the globe before reaching your ears. And thanks to those tunes, you can relax at night and dream happy dreams.\n",
 
             "♦ Calming Music for Pets (Dogs & Cats) ♦\n" +
-            "Have an easily stressed dog or cat? Calm him by playing our pet therapy songs in the background in the evening, or while you're not at home. Have the world's most relaxed puppy or kitten, and improve his behavior or hyperactive issues! Check out our playlists for the sweetest, most tranquil music for animals. You'll love it as much as they do!\n",
+                "Have an easily stressed dog or cat? Calm him by playing our pet therapy songs in the background in the evening, or while you're not at home. Have the world's most relaxed puppy or kitten, and improve his behavior or hyperactive issues! Check out our playlists for the sweetest, most tranquil music for animals. You'll love it as much as they do!\n",
 
             "♦ Baby Dreamland Lullabies ♦\n" +
-            "We sometimes wish for a tender sleep for our loved ones more than what we would ask for ourselves. That's why when it comes to choosing the right music for our child we tend to be so selective. In order to satisfy this need for perfection, we propose an assortment of beautiful songs for your babies to sleep better. Soft piano or music box? You choose what they'll enjoy tonight!\n",
+                "We sometimes wish for a tender sleep for our loved ones more than what we would ask for ourselves. That's why when it comes to choosing the right music for our child we tend to be so selective. In order to satisfy this need for perfection, we propose an assortment of beautiful songs for your babies to sleep better. Soft piano or music box? You choose what they'll enjoy tonight!\n",
 
             "♦ Celestial Healing Sounds of Nature ♦\n" +
-            "Unwind and relax, just as if you were under a fresh summer rain or lost within a lush, green forest. Mother Nature can sometimes sing the most soothing lullabies of all: listen to the sounds of flowing waters, of singing birds, and falling rain as you gently fall asleep.\n"));
+                "Unwind and relax, just as if you were under a fresh summer rain or lost within a lush, green forest. Mother Nature can sometimes sing the most soothing lullabies of all: listen to the sounds of flowing waters, of singing birds, and falling rain as you gently fall asleep.\n"));
 
     @FXML
     public static List<String> esKeywords = new ArrayList<String>(Arrays.asList(
-            "♦Musica para Dormir Profundamente♦\n" +
-            "Llenas de sonidos calmantes e inspiradores, estas canciones te asegurarán un despertar tranquilo y calma en la mañana sintiéndote renovado y en paz. Nuestra música está inspirada en gran medida por algunas de las melodías más suaves de Brian Eno en su álbum Music for Airports. Si tiene ansiedad y necesita ayuda para relajarse antes de quedarse, intente escuchar estas canciones relajantes para combatir el estrés, calmar los nervios, la mente y encontrar la serenidad.\n",
 
-            "♦Música Clásica Relajante♦\n" +
-            "Desde Johann Sebastian Bach hasta Amadeus Mozart, muchos compositores clásicos se han hecho famosos a lo largo de los siglos como los padres de la música conocida para ayudar a las personas a dormir. Hemos recopilado algunas de las canciones de cuna clásicas más populares y las hemos arregladas para que las disfrute!\n",
+            "♦ Musica para Dormir Profundamente♦\n" +
+                "Llenas de sonidos calmantes e inspiradores, estas canciones te asegurarán un despertar tranquilo y calma en la mañana sintiéndote renovado y en paz. Nuestra música está inspirada en gran medida por algunas de las melodías más suaves de Brian Eno en su álbum Music for Airports. Si tiene ansiedad y necesita ayuda para relajarse antes de quedarse, intente escuchar estas canciones relajantes para combatir el estrés, calmar los nervios, la mente y encontrar la serenidad.\n",
+
+            "♦ Música Clásica Relajante♦\n" +
+                "Desde Johann Sebastian Bach hasta Amadeus Mozart, muchos compositores clásicos se han hecho famosos a lo largo de los siglos como los padres de la música conocida para ayudar a las personas a dormir. Hemos recopilado algunas de las canciones de cuna clásicas más populares y las hemos arregladas para que las disfrute!\n",
 
             "♦ Canciones instrumentales relajantes ♦\n" +
-            "Tenemos a disposición los mejores instrumentos de relajación: piano, flauta y guitarra, y también instrumentos menos convencionales, como el peculiar tambor Hang o el sitar oriental. Cada video contiene una historia y una canción que puede haber recorrido todo el mundo antes de llegar a sus orejas. Y gracias a estas melodías, puede relajarse por la noche y soñar sueños felices.\n",
+                "Tenemos a disposición los mejores instrumentos de relajación: piano, flauta y guitarra, y también instrumentos menos convencionales, como el peculiar tambor Hang o el sitar oriental. Cada video contiene una historia y una canción que puede haber recorrido todo el mundo antes de llegar a sus orejas. Y gracias a estas melodías, puede relajarse por la noche y soñar sueños felices.\n",
 
             "♦ Música relajante para perros y gatos ♦\n" +
-            "¿Tiene un perro o gato estresado? Càlmalo con nuestra musicoterapia para gatos y perros inquietos o nerviosos mientras no está en casa. ¡Transforme tu amigo en el perrito o gatito más relajado del mundo y mejore su comportamiento o sus problemas de hiperactividad! Echa un vistazo a nuestras listas de reproducción de música relajante para los animales. ¡Te encantará tanto como ellos!\n",
+                "¿Tiene un perro o gato estresado? Càlmalo con nuestra musicoterapia para gatos y perros inquietos o nerviosos mientras no está en casa. ¡Transforme tu amigo en el perrito o gatito más relajado del mundo y mejore su comportamiento o sus problemas de hiperactividad! Echa un vistazo a nuestras listas de reproducción de música relajante para los animales. ¡Te encantará tanto como ellos!\n",
 
             "♦ Música para Bebés y Canciones de Cuna ♦\n" +
-            "A veces deseamos un sueño tranquilo para nuestros seres queridos más de lo que nos pediríamos a nosotros mismos. Es por eso que cuando se trata de elegir la música adecuada para nuestro hijos, tendemos a ser muy selectivos. Para satisfacer esta necesidad, proponemos una variedad de canciones relajantes y suaves para que sus bebés duerman mejor. ¿Melodía de piano o caja de música? ¡Elige lo que disfrutarán esta noche!\n",
+                "A veces deseamos un sueño tranquilo para nuestros seres queridos más de lo que nos pediríamos a nosotros mismos. Es por eso que cuando se trata de elegir la música adecuada para nuestro hijos, tendemos a ser muy selectivos. Para satisfacer esta necesidad, proponemos una variedad de canciones relajantes y suaves para que sus bebés duerman mejor. ¿Melodía de piano o caja de música? ¡Elige lo que disfrutarán esta noche!\n",
 
             "♦ Sonidos de la naturaleza para sanar el cuerpo y el alma ♦\n" +
-            "Relájate y descansa, como si estuviera bajo una lluvia fresca de verano o perdido en un exuberante bosque verde. La madre naturaleza a veces puede ofrecer una canciones de cuna más tranquilizadoras: escucha los sonidos de la agua que fluye, de los pájaros que cantan y de la lluvia que cae mientras duerme suavemente.\n"));
+                "Relájate y descansa, como si estuviera bajo una lluvia fresca de verano o perdido en un exuberante bosque verde. La madre naturaleza a veces puede ofrecer una canciones de cuna más tranquilizadoras: escucha los sonidos de la agua que fluye, de los pájaros que cantan y de la lluvia que cae mientras duerme suavemente.\n"));
 
     @FXML
     public static List<String> deKeywords = new ArrayList<String>(Arrays.asList(
+
             "♦ New Age Hintergrundmusik um tief zu schlafen ♦\n" +
-            "Diese Melodien werden von pulsierenden inspirierenden Klängen erfüllt und sorgen dafür, dass du am nächsten Morgen erfrischt und erneuert aufwache. Unsere Musik ist stark inspiriert von einigen der sanftesten Melodien von Brian Eno in seinem Album \"Music for Airports\". Wenn du unter Angst leidest und Hilfe brauchst, um dich vor dem Einschlafen zu entspannen, höre diese Lieder im Hintergrund an, um Angstgefühle abzuwehren und Ruhe zu finden.\n",
+                "Diese Melodien werden von pulsierenden inspirierenden Klängen erfüllt und sorgen dafür, dass du am nächsten Morgen erfrischt und erneuert aufwache. Unsere Musik ist stark inspiriert von einigen der sanftesten Melodien von Brian Eno in seinem Album \"Music for Airports\". Wenn du unter Angst leidest und Hilfe brauchst, um dich vor dem Einschlafen zu entspannen, höre diese Lieder im Hintergrund an, um Angstgefühle abzuwehren und Ruhe zu finden.\n",
 
-
-              "♦ Klassische Sanfte Melodien ♦\n" +
-            "Von Johann Sebastian Bach bis Amadeus Mozart, viele klassische Komponisten sind über die Jahrhunderte als die Väter der berühmtesten Musik bekannt geworden, die Menschen beim Einschlafen helfen.\n" +
-            "Wir haben einige der beliebtesten klassischen Wiegenlieder zusammengestellt und für dich arrangiert.\n",
-
+            "♦ Klassische Sanfte Melodien ♦\n" +
+                "Von Johann Sebastian Bach bis Amadeus Mozart, viele klassische Komponisten sind über die Jahrhunderte als die Väter der berühmtesten Musik bekannt geworden, die Menschen beim Einschlafen helfen.\n" +
+                "Wir haben einige der beliebtesten klassischen Wiegenlieder zusammengestellt und für dich arrangiert.\n",
 
             "♦ Beruhigende Instrumentale Lieder ♦\n" +
-            "Wir haben das übliche Piano, Flöte, Gitarre, aber auch weniger konventionelle Instrumente wie der eigentümliche Hang oder die orientalische Sitar.\n" +
-            "Jedes Video enthält eine Geschichte: ein Lied, das vielleicht schon um die halbe Welt gereist ist, bevor es zu deinen Ohren gelangt.\n" +
-            "Dank dieses kannst du nachts entspannen und glückliche Träume haben.\n",
+                "Wir haben das übliche Piano, Flöte, Gitarre, aber auch weniger konventionelle Instrumente wie der eigentümliche Hang oder die orientalische Sitar.\n" +
+                "Jedes Video enthält eine Geschichte: ein Lied, das vielleicht schon um die halbe Welt gereist ist, bevor es zu deinen Ohren gelangt.\n" +
+                "Dank dieses kannst du nachts entspannen und glückliche Träume haben.\n",
 
-
-
-        "♦ Beruhigende Musik für Haustiere (Hunde & Katzen) ♦\n" +
-            "Hast du einen Hund oder eine Katze, die leicht gestresst werden kann?\n" +
-            "Beruhige ihn, indem Sie abends unsere Lieblings Therapie Songs im Hintergrund spielen oder wenn du nicht zu Hause bist.\n" +
-            "Dadurch würdest du den entspanntesten Welpen oder das entspannteste Kätzchen der Welt haben und unsere Musik kann auch sein Verhalten oder hyperaktive Probleme verbessern!\n" +
-            "Höre unsere Playlists für die süßeste und ruhigste Musik für Tiere an.\n" +
-            "Du wirst es genauso lieben wie sie!\n",
-
-
+            "♦ Beruhigende Musik für Haustiere (Hunde & Katzen) ♦\n" +
+                "Hast du einen Hund oder eine Katze, die leicht gestresst werden kann?\n" +
+                "Beruhige ihn, indem Sie abends unsere Lieblings Therapie Songs im Hintergrund spielen oder wenn du nicht zu Hause bist.\n" +
+                "Dadurch würdest du den entspanntesten Welpen oder das entspannteste Kätzchen der Welt haben und unsere Musik kann auch sein Verhalten oder hyperaktive Probleme verbessern!\n" +
+                "Höre unsere Playlists für die süßeste und ruhigste Musik für Tiere an.\n" +
+                "Du wirst es genauso lieben wie sie!\n",
 
             "♦ Baby Traumland Schlaflieder ♦\n" +
-            "Wir wünschen uns manchmal einen zärtlichen Schlaf für unsere Lieben, mehr als das, was wir uns selbst wünschen.\n" +
-            "Deshalb sind wir bei der Auswahl der richtigen Musik für unser Kinder so selektiv.\n"+
-            "Um dieses Bedürfnis nach Perfektion zu befriedigen, schlagen wir eine Auswahl an schönen Liedern vor, damit deine Babys besser schlafen können.\n" +
-            "Klaviermusik oder Spieluhr? Du wählst, was du heute Abend genießen werden!\n",
-
+                "Wir wünschen uns manchmal einen zärtlichen Schlaf für unsere Lieben, mehr als das, was wir uns selbst wünschen.\n" +
+                "Deshalb sind wir bei der Auswahl der richtigen Musik für unser Kinder so selektiv.\n"+
+                "Um dieses Bedürfnis nach Perfektion zu befriedigen, schlagen wir eine Auswahl an schönen Liedern vor, damit deine Babys besser schlafen können.\n" +
+                "Klaviermusik oder Spieluhr? Du wählst, was du heute Abend genießen werden!\n",
 
             "♦ Heilende Himmlische Geräusche der Natur ♦\n" +
-            "Beruhige und entspanne dich, als ob du unter einem frischen Sommerregen oder in einem üppigen, grünen Wald versunken wärst.\n" +
-            "Mutter Natur kann manchmal die besänftigendsten Wiegenlieder singen:\n" +
-            "Höre den Geräuschen fließender Gewässer, Wunderbare singende Vögel und strömender Regen, während du sanfte einschläfst.\n"));
+                "Beruhige und entspanne dich, als ob du unter einem frischen Sommerregen oder in einem üppigen, grünen Wald versunken wärst.\n" +
+                "Mutter Natur kann manchmal die besänftigendsten Wiegenlieder singen:\n" +
+                "Höre den Geräuschen fließender Gewässer, Wunderbare singende Vögel und strömender Regen, während du sanfte einschläfst.\n"));
 
 
     @FXML
     public static List<String> ptKeywords = new ArrayList<String>(Arrays.asList(
 
-            "♦  Música de fundo New Age para dormir profundamente ♦\n" +
-            "Cheia de sons vibrantes e inspiradores, essas músicas irão certificar-se de que você vai acordar na manhã seguinte, sentindo-se revigorado e renovado. Nossa música é muito inspirada das algumas melodias mais suaves por Brian Eno, em seu álbum “Music for Airports”. Se você sofre de ansiedade e precisa de ajuda para relaxar antes de adormecer, tente ouvir essas músicas de fundo para combater ataques de ansiedade e para encontrar serenidade.\n",
+            "♦ Música de fundo New Age para dormir profundamente ♦\n" +
+                "Cheia de sons vibrantes e inspiradores, essas músicas irão certificar-se de que você vai acordar na manhã seguinte, sentindo-se revigorado e renovado. Nossa música é muito inspirada das algumas melodias mais suaves por Brian Eno, em seu álbum “Music for Airports”. Se você sofre de ansiedade e precisa de ajuda para relaxar antes de adormecer, tente ouvir essas músicas de fundo para combater ataques de ansiedade e para encontrar serenidade.\n",
 
             "♦ Melodias Clássicas Gentis ♦\n" +
-            "De Johann Sebastian Bach para Amadeus Mozart, muitos compositores clássicos tornaram-se conhecidos através dos séculos como os pais da mais famosa música para ajudar as pessoas a dormir. Nós reunimos algumas das mais populares canções de ninar clássicas para você aproveitar!\n",
+                "De Johann Sebastian Bach para Amadeus Mozart, muitos compositores clássicos tornaram-se conhecidos através dos séculos como os pais da mais famosa música para ajudar as pessoas a dormir. Nós reunimos algumas das mais populares canções de ninar clássicas para você aproveitar!\n",
 
-            " ♦ Canções instrumentais suaves ♦\n" +
-            "Nós temos piano, flauta, violão. Mas, também, instrumentos menos convencionais como o tambor ou sitar oriental. Todos os vídeos trazem uma história, uma canção que pode percorrer metade do caminho em todo o mundo antes de chegar aos seus ouvidos. E com a essas músicas, você pode relaxar durante a noite e sonhar sonhos felizes.\n",
+            "♦ Canções instrumentais suaves ♦\n" +
+                "Nós temos piano, flauta, violão. Mas, também, instrumentos menos convencionais como o tambor ou sitar oriental. Todos os vídeos trazem uma história, uma canção que pode percorrer metade do caminho em todo o mundo antes de chegar aos seus ouvidos. E com a essas músicas, você pode relaxar durante a noite e sonhar sonhos felizes.\n",
 
             "♦ Música calmante para animais (cães e gatos) ♦\n" +
-            "Você tem um cão ou gato facilmente agitado? Acalmá-lo com nossas músicas de terapia para animais, à noite ou quando você não está em casa. Tem cachorro ou gatinho mais descontraído do mundo? Vai melhorar o seu comportamento! Confira nas nossas playlist com a música mais doce e mais tranquila para os animais. Você vai adorar tanto quanto eles!\n",
+                "Você tem um cão ou gato facilmente agitado? Acalmá-lo com nossas músicas de terapia para animais, à noite ou quando você não está em casa. Tem cachorro ou gatinho mais descontraído do mundo? Vai melhorar o seu comportamento! Confira nas nossas playlist com a música mais doce e mais tranquila para os animais. Você vai adorar tanto quanto eles!\n",
 
             "♦ Canções de Ninar para a terra dos sonhos das crianças♦\n" +
-            "Nós, às vezes, desejamos um sono profundo para as nossas crianças e nós pediríamos o mesmo para nós. É por isso que quando se trata de escolher a música certa para o nosso filho, tendemos a ser tão seletivos. A fim de satisfazer esta necessidade de perfeição, temos uma variedade de canções perfeitas para adormecer seus bebês. Piano suave ou caixa de música? Você escolhe o que eles vão aproveitar esta noite!\n",
+                "Nós, às vezes, desejamos um sono profundo para as nossas crianças e nós pediríamos o mesmo para nós. É por isso que quando se trata de escolher a música certa para o nosso filho, tendemos a ser tão seletivos. A fim de satisfazer esta necessidade de perfeição, temos uma variedade de canções perfeitas para adormecer seus bebês. Piano suave ou caixa de música? Você escolhe o que eles vão aproveitar esta noite!\n",
 
             "♦ Sons Celestiais de Cura da Natureza ♦\n" +
-            "Relaxe, como se você estava sob uma chuva de verão fresco ou perdido dentro de uma floresta verdejante. Mãe Natureza às vezes pode cantar as canções de ninar mais suaves do mundo: vai ouvir os sons das águas correntes, de pássaros canoros e chuva, caindo enquanto você adormece gentilmente.\n"));
+                "Relaxe, como se você estava sob uma chuva de verão fresco ou perdido dentro de uma floresta verdejante. Mãe Natureza às vezes pode cantar as canções de ninar mais suaves do mundo: vai ouvir os sons das águas correntes, de pássaros canoros e chuva, caindo enquanto você adormece gentilmente.\n"));
 
 
     @FXML

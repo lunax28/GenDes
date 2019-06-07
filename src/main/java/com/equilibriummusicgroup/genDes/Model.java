@@ -120,7 +120,7 @@ public class Model {
 
                 //builder.append("\n" + MrcConstants.enConstantFields.EN_SECOND_SENTENCE.getField() + "\n\n");
 
-                builder.append(this.inputDescription + "\n\n");
+                builder.append(this.inputDescription + "\n");
 
                 //builder.append(MrcConstants.enConstantFields.EN_TOP_DESCRIPTION.getField());
 
