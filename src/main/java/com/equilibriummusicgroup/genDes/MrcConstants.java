@@ -78,7 +78,9 @@ public class MrcConstants {
     public static List<String> deKeywords = new ArrayList<String>(Arrays.asList(
 
             "► Meditation und Achtsamkeit ◄\n" +
-                "Instrumentale Hintergrundmusik für Meditation Zufluchtsort. Diese Musik ist perfekt, um eine transzendentale Atmosphäre in deinem Meditation Zimmer zu nachschaffen. Das ist sehr gut für beide Achtsamkeitsmeditation und buddhistische Meditation. Diese Musik wird von der ostasiatischen Musik inspiriert, mit Konzentrationsklängen der tibetischen Klangschalen und Gesänge von tibetischen Mönchen, aber auch Naturgeräusche wie zum Beispiel Vogelgezwitscher und Meeresrauschen. Diese sanfte Musik ist perfekt für Deepak Chopra und Osho geführte Meditation mit schamanischer Musik für Körper, Seele und Geist.\n", "►Entspannungsmusik◄\n" +
+                "Instrumentale Hintergrundmusik für Meditation Zufluchtsort. Diese Musik ist perfekt, um eine transzendentale Atmosphäre in deinem Meditation Zimmer zu nachschaffen. Das ist sehr gut für beide Achtsamkeitsmeditation und buddhistische Meditation. Diese Musik wird von der ostasiatischen Musik inspiriert, mit Konzentrationsklängen der tibetischen Klangschalen und Gesänge von tibetischen Mönchen, aber auch Naturgeräusche wie zum Beispiel Vogelgezwitscher und Meeresrauschen. Diese sanfte Musik ist perfekt für Deepak Chopra und Osho geführte Meditation mit schamanischer Musik für Körper, Seele und Geist.\n",
+
+            "► Entspannungsmusik ◄\n" +
                 "Entspannung ist ein wichtiger Teil der Erfahrung von Meditation Relax Club. Wir haben wunderbare Lieder und schöne Videos mit beruhigenden Bildern. Diese Instrumentalmusik ist stark von Enya und anderen New Age Musik Guru inspiriert, mit Harfenmusik, klassische Klaviermusik zur Entspannung und Flötenmelodien mit Naturgeräuschen für eine spannungsfrei Moment. In unserer Produktion sind die geführte Entspannungen sehr wichtig: du kannst es auf dem Kanal finden, mit beruhigenden Stimmen und ätherischer Musik.\n",
 
             "► Orientalische Zen Musik ◄\n" +
@@ -238,7 +240,7 @@ public class MrcConstants {
                 "✿ Fall asleep with the gentle notes of Sleep Music Relax Zone \n" +
 
                 "\n" +
-                " \uD83C\uDF0A Relax with soft music and nature sounds on RelaxRiver\n" +
+                "\uD83C\uDF0A Relax with soft music and nature sounds on RelaxRiver\n" +
 
                 "\n" +
                 "\uD83C\uDF34 Lay back through the enticing ambience of Chillout Lounge Relax\n" +
@@ -286,7 +288,7 @@ public class MrcConstants {
                 "✿ Duerma con las notas suaves de Sleep Music Relax Zone \n" +
 
                 "\n" +
-                " \uD83C\uDF0A Relájese con la música suave y los sonidos de la naturaleza en RelaxRiver\n" +
+                "\uD83C\uDF0A Relájese con la música suave y los sonidos de la naturaleza en RelaxRiver\n" +
 
                 "\n" +
                 "\uD83C\uDF34 Recuéstese con la Música Ambient de Chillout Lounge Relax\n" +
@@ -336,7 +338,7 @@ public class MrcConstants {
                 "✿ Schlaf mit der sanften Noten von Sleep Music Relax Zone ein \n" +
 
                 "\n" +
-                " \uD83C\uDF0A Entspann dich mit beruhigenden Musik und der Naturgeräuschen von Relax River\n" +
+                "\uD83C\uDF0A Entspann dich mit beruhigenden Musik und der Naturgeräuschen von Relax River\n" +
 
                 "\n" +
                 "\uD83C\uDF34 Erlebt die Ambience Atmosphäre unserer Chillout Lounge Relax\n" +
@@ -385,10 +387,10 @@ public class MrcConstants {
                 "✿ Adormeça entre as notas doces de Sleep Music Relax Zone \n" +
 
                 "\n" +
-                "\uD83C\uDF20  Aproveite dos longos vídeos de Sleep Music Lullabies\n" +
+                "\uD83C\uDF20 Aproveite dos longos vídeos de Sleep Music Lullabies\n" +
 
                 "\n" +
-                " \uD83C\uDF0A Relaxar com a musica soft e os sons da natureza de Relax River\n" +
+                "\uD83C\uDF0A Relaxar com a musica soft e os sons da natureza de Relax River\n" +
 
                 "\n" +
                 "\uD83C\uDF34 Deixe-se seduzir pela magia da Chillout Lounge Relax\n" +
@@ -439,7 +441,7 @@ public class MrcConstants {
                 "✿ Addormentati tra le dolci note di Sleep Music Relax Zone\n" +
 
                 "\n" +
-                " \uD83C\uDF0A Rilassati con la musica soft e i suoni della natura di Relax River\n" +
+                "\uD83C\uDF0A Rilassati con la musica soft e i suoni della natura di Relax River\n" +
 
                 "\n" +
                 "\uD83C\uDF34 Lasciati sedurre dall’atmosfera magica di Chillout Lounge Relax\n" +
@@ -489,10 +491,10 @@ public class MrcConstants {
                 "✿ S'endormir avec les notes douces de Sleep Music Relax Zone \n" +
 
                 "\n" +
-                " \uD83C\uDF0A Détente avec la musique douce et les sons de la nature sur RelaxRiver\n" +
+                "\uD83C\uDF0A Détente avec la musique douce et les sons de la nature sur RelaxRiver\n" +
 
                 "\n" +
-                "\uD83C\uDF34Se reposer à travers l'ambiance séduisante de Chillout Lounge Relax\n" +
+                "\uD83C\uDF34 Se reposer à travers l'ambiance séduisante de Chillout Lounge Relax\n" +
 
                 "\n" +
                 "\uD83D\uDC44 Vivre les moments les plus intimes avec Sensual Music Club\n");

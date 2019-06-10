@@ -189,7 +189,7 @@ public class BuddhaConstants {
                 "✿ Sleep Music Relax Zone - Relaxing Sleep Music\n" +
                 "♪ https://www.youtube.com/sleepmusicrelaxzone\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -240,7 +240,7 @@ public class BuddhaConstants {
                 "✿ Sleep Music Relax Zone - Relaxing Sleep Music\n" +
                 "♪ https://www.youtube.com/sleepmusicrelaxzone\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -350,7 +350,7 @@ public class BuddhaConstants {
                 "✿ Sleep Music Relax Zone - Relaxing Sleep Music\n" +
                 "♪ https://www.youtube.com/sleepmusicrelaxzone\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -403,7 +403,7 @@ public class BuddhaConstants {
                 "✿ Sleep Music Relax Zone - Relaxing Sleep Music\n" +
                 "♪ https://www.youtube.com/sleepmusicrelaxzone\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +

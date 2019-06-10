@@ -126,9 +126,11 @@ public class Model {
 
                 builder.append("\n\n");
 
+                System.out.println("MrcConstants.enKeywords.size() " + MrcConstants.enKeywords.size());
+
                 // Build a list of integers of size this.enKeywords
                 list = new ArrayList<Integer>(MrcConstants.enKeywords.size());
-                for (int i = 1; i <= MrcConstants.enKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.enKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -138,9 +140,10 @@ public class Model {
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
                 while (list.size() > MrcConstants.enKeywords.size()-3) {
-                    System.out.println("this.enKeywords.size(): " + MrcConstants.enKeywords.size());
+                    System.out.println("MrcConstants.enKeywords.size(): " + MrcConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    System.out.println("LIST SIZE: " + list.size());
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.enKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -170,7 +173,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(MrcConstants.esKeywords.size());
-                for (int i = 1; i <= MrcConstants.esKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.esKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -178,7 +181,7 @@ public class Model {
                 while (list.size() > MrcConstants.esKeywords.size()-3) {
                     System.out.println("this.esKeywords.size(): " + MrcConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.esKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -210,7 +213,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(MrcConstants.deKeywords.size());
-                for (int i = 1; i <= MrcConstants.deKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.deKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -218,7 +221,7 @@ public class Model {
                 while (list.size() > MrcConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + MrcConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.deKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -248,7 +251,7 @@ public class Model {
                 builder.append("\n\n");
 
                 list = new ArrayList<Integer>(MrcConstants.ptKeywords.size());
-                for (int i = 1; i <= MrcConstants.ptKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.ptKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -256,7 +259,7 @@ public class Model {
                 while (list.size() > MrcConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + MrcConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -287,7 +290,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(MrcConstants.itKeywords.size());
-                for (int i = 1; i <= MrcConstants.itKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.itKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -295,7 +298,7 @@ public class Model {
                 while (list.size() > MrcConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + MrcConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.itKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -325,7 +328,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(MrcConstants.frKeywords.size());
-                for (int i = 1; i <= MrcConstants.frKeywords.size(); i++) {
+                for (int i = 0; i <= MrcConstants.frKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -333,7 +336,7 @@ public class Model {
                 while (list.size() > MrcConstants.frKeywords.size()-3) {
                     System.out.println("this.frKeywords.size(): " + MrcConstants.frKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(MrcConstants.frKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -381,7 +384,7 @@ public class Model {
 
                 //I build a list of integers of size this.enKeywords
                 list = new ArrayList<Integer>(SleepConstants.enKeywords.size());
-                for (int i = 1; i <= SleepConstants.enKeywords.size(); i++) {
+                for (int i = 0; i <= SleepConstants.enKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -393,7 +396,7 @@ public class Model {
                 while (list.size() > SleepConstants.enKeywords.size()-3) {
                     System.out.println("this.SleepConstants.size(): " + SleepConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(SleepConstants.enKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -422,7 +425,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(SleepConstants.esKeywords.size());
-                for (int i = 1; i <= SleepConstants.esKeywords.size(); i++) {
+                for (int i = 0; i <= SleepConstants.esKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -430,7 +433,7 @@ public class Model {
                 while (list.size() > SleepConstants.esKeywords.size()-3) {
                     System.out.println("this.esKeywords.size(): " + SleepConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(SleepConstants.esKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -461,7 +464,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(SleepConstants.deKeywords.size());
-                for (int i = 1; i <= SleepConstants.deKeywords.size(); i++) {
+                for (int i = 0; i <= SleepConstants.deKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -469,7 +472,7 @@ public class Model {
                 while (list.size() > SleepConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + SleepConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(SleepConstants.deKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -498,7 +501,7 @@ public class Model {
                 builder.append("\n\n");
 
                 list = new ArrayList<Integer>(SleepConstants.ptKeywords.size());
-                for (int i = 1; i <= SleepConstants.ptKeywords.size(); i++) {
+                for (int i = 0; i <= SleepConstants.ptKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -506,7 +509,7 @@ public class Model {
                 while (list.size() > SleepConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + SleepConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(SleepConstants.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -536,7 +539,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(SleepConstants.itKeywords.size());
-                for (int i = 1; i <= SleepConstants.itKeywords.size(); i++) {
+                for (int i = 0; i <= SleepConstants.itKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -544,7 +547,7 @@ public class Model {
                 while (list.size() > SleepConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + SleepConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(SleepConstants.itKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -593,7 +596,7 @@ public class Model {
 
                 //I build a list of integers of size this.enKeywords
                 list = new ArrayList<Integer>(BuddhaConstants.enKeywords.size());
-                for (int i = 1; i <= BuddhaConstants.enKeywords.size(); i++) {
+                for (int i = 0; i <= BuddhaConstants.enKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -605,7 +608,7 @@ public class Model {
                 while (list.size() > BuddhaConstants.enKeywords.size()-3) {
                     System.out.println("this.enKeywords.size(): " + BuddhaConstants.enKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(BuddhaConstants.enKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -634,7 +637,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(BuddhaConstants.esKeywords.size());
-                for (int i = 1; i <= BuddhaConstants.esKeywords.size(); i++) {
+                for (int i = 0; i <= BuddhaConstants.esKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -642,7 +645,7 @@ public class Model {
                 while (list.size() > BuddhaConstants.esKeywords.size() - 3) {
                     System.out.println("this.esKeywords.size(): " + BuddhaConstants.esKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(BuddhaConstants.esKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -673,7 +676,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(BuddhaConstants.deKeywords.size());
-                for (int i = 1; i <= BuddhaConstants.deKeywords.size(); i++) {
+                for (int i = 0; i <= BuddhaConstants.deKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -681,7 +684,7 @@ public class Model {
                 while (list.size() > BuddhaConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + BuddhaConstants.deKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(BuddhaConstants.deKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -710,7 +713,7 @@ public class Model {
                 builder.append("\n\n");
 
                 list = new ArrayList<Integer>(BuddhaConstants.ptKeywords.size());
-                for (int i = 1; i <= BuddhaConstants.ptKeywords.size(); i++) {
+                for (int i = 0; i <= BuddhaConstants.ptKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -718,7 +721,7 @@ public class Model {
                 while (list.size() > BuddhaConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + BuddhaConstants.ptKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(BuddhaConstants.ptKeywords.get(list.remove(index)));
                     builder.append("\n");
@@ -748,7 +751,7 @@ public class Model {
 
 
                 list = new ArrayList<Integer>(BuddhaConstants.itKeywords.size());
-                for (int i = 1; i <= BuddhaConstants.itKeywords.size(); i++) {
+                for (int i = 0; i <= BuddhaConstants.itKeywords.size()-1; i++) {
                     list.add(i);
                 }
 
@@ -756,7 +759,7 @@ public class Model {
                 while (list.size() > BuddhaConstants.itKeywords.size()-3) {
                     System.out.println("this.itKeywords.size(): " + BuddhaConstants.itKeywords.size());
                     System.out.println("LIST: " + list);
-                    int index = rand.nextInt(list.size() - 1);
+                    int index = rand.nextInt(list.size());
                     System.out.println("INDEX: " + index);
                     builder.append(BuddhaConstants.itKeywords.get(list.remove(index)));
                     builder.append("\n");

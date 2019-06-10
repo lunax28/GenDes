@@ -32,10 +32,10 @@ public class SleepConstants {
     @FXML
     public static List<String> esKeywords = new ArrayList<String>(Arrays.asList(
 
-            "♦ Musica para Dormir Profundamente♦\n" +
+            "♦ Musica para Dormir Profundamente ♦\n" +
                 "Llenas de sonidos calmantes e inspiradores, estas canciones te asegurarán un despertar tranquilo y calma en la mañana sintiéndote renovado y en paz. Nuestra música está inspirada en gran medida por algunas de las melodías más suaves de Brian Eno en su álbum Music for Airports. Si tiene ansiedad y necesita ayuda para relajarse antes de quedarse, intente escuchar estas canciones relajantes para combatir el estrés, calmar los nervios, la mente y encontrar la serenidad.\n",
 
-            "♦ Música Clásica Relajante♦\n" +
+            "♦ Música Clásica Relajante ♦\n" +
                 "Desde Johann Sebastian Bach hasta Amadeus Mozart, muchos compositores clásicos se han hecho famosos a lo largo de los siglos como los padres de la música conocida para ayudar a las personas a dormir. Hemos recopilado algunas de las canciones de cuna clásicas más populares y las hemos arregladas para que las disfrute!\n",
 
             "♦ Canciones instrumentales relajantes ♦\n" +
@@ -157,7 +157,7 @@ public class SleepConstants {
                 "✿ Buddha Tribe - Relaxation Bar Music Vibe\n" +
                 "♪ https://www.youtube.com/buddhatribe\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -202,7 +202,7 @@ public class SleepConstants {
                 "✿ Buddha Tribe - Relaxation Bar Music Vibe\n" +
                 "♪ https://www.youtube.com/buddhatribe\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -297,7 +297,7 @@ public class SleepConstants {
                 "✿ Buddha Tribe - Relaxation Bar Music Vibe\n" +
                 "♪ https://www.youtube.com/buddhatribe\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
@@ -344,7 +344,7 @@ public class SleepConstants {
                 "✿ Buddha Tribe - Relaxation Bar Music Vibe\n" +
                 "♪ https://www.youtube.com/buddhatribe\n" +
                 "\n" +
-                " \uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
+                "\uD83C\uDF0A RelaxRiver - Relaxation Flows in You\n" +
                 "♪ https://www.youtube.com/relaxriverofficial\n" +
                 "\n" +
                 "\uD83C\uDF34 Chillout Lounge Relax - Continuous Ambient Music Mix\n" +
