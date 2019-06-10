@@ -96,10 +96,10 @@ public class GenDesController {
 
         String tmp = upcTextField.getText();
         String tmpFormat = tmp.trim();
-        /*String link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
+        String link = ("https://itunes.apple.com/lookup?upc=" + tmpFormat);
                         https://itunes.apple.com/lookup?upc=720642462928*/
 
-        String link = tmpFormat;
+        //String link = tmpFormat;
         System.out.println("LINK: " + link);
 
         Model model = new Model(this.choiceBoxLanguage.getValue(),  this.choiceBoxChannel.getValue(), this.descriptionTextArea.getText());

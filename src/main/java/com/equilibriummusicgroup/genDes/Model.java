@@ -26,9 +26,10 @@ public class Model {
     public String getResult(String link) throws InterruptedException, CustomException {
 //        Thread.sleep(2000);
         String finalDescription = "";
-        /*iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
 
-        JsonObject json = apiClass.getJson(link);
+        iTunesApiQueryUtils apiClass = new iTunesApiQueryUtils();
+
+        /*JsonObject json = apiClass.getJson(link);
 
         if (json == null) {
             return null;
@@ -37,11 +38,13 @@ public class Model {
         this.albumURL = parseJson(json);
         if(albumURL == null){
             throw new CustomException("No Albums associated with that UPC!");
-        }*/
+        }
 
-        this.albumURL = link;
+        this.albumURL = link;*/
 
-        if (!albumURL.isEmpty()) {
+        JsonObject json = null;
+
+        if (true) {
 
             switch (this.channel){
                 case ("MRC"):
@@ -51,12 +54,34 @@ public class Model {
                     break;
 
                 case ("Sleep"):
+                    json = apiClass.getJson(link);
+
+                    if (json == null) {
+                        return null;
+                    }
+
+                    this.albumURL = parseJson(json);
+                    if(albumURL == null){
+                        throw new CustomException("No Albums associated with that UPC!");
+                    }
+
                     System.out.println("###Sleep###");
                     finalDescription = generateSleepDescription();
 
                     break;
 
                 case("Buddha"):
+                    json = apiClass.getJson(link);
+
+                    if (json == null) {
+                        return null;
+                    }
+
+                    this.albumURL = parseJson(json);
+                    if(albumURL == null){
+                        throw new CustomException("No Albums associated with that UPC!");
+                    }
+
                     System.out.println("###Buddha###");
                     finalDescription = generateBuddhaDescription();
 
