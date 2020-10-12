@@ -161,6 +161,7 @@ public class Model {
 
                 System.out.println("LIST: " + list);
 
+                builder.append(MrcConstants.enConstantFields.EN_BOTTOM_DESCRIPTION.getField());
                 //While the list that I've just built is greater than 7, I proceed to pick a random int between 0 and list.size()-1 and
                 //remove from list the index equals to that randomly picked int.
                 rand = new Random();
@@ -176,7 +177,7 @@ public class Model {
 
                 System.out.println("AFTER WHILE LOOP LIST: " + list);
 
-                builder.append(MrcConstants.enConstantFields.EN_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
@@ -197,10 +198,13 @@ public class Model {
                 builder.append("\n\n");
 
 
+
                 list = new ArrayList<Integer>(MrcConstants.esKeywords.size());
                 for (int i = 0; i <= MrcConstants.esKeywords.size()-1; i++) {
                     list.add(i);
                 }
+
+                builder.append(MrcConstants.esConstantFields.ES_BOTTOM_DESCRIPTION.getField());
 
                 rand = new Random();
                 while (list.size() > MrcConstants.esKeywords.size()-3) {
@@ -214,7 +218,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(MrcConstants.esConstantFields.ES_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
@@ -242,6 +246,8 @@ public class Model {
                     list.add(i);
                 }
 
+                builder.append(MrcConstants.deConstantFields.DE_BOTTOM_DESCRIPTION.getField());
+
                 rand = new Random();
                 while (list.size() > MrcConstants.deKeywords.size()-3) {
                     System.out.println("this.deKeywords.size(): " + MrcConstants.deKeywords.size());
@@ -254,7 +260,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(MrcConstants.deConstantFields.DE_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
@@ -279,7 +285,7 @@ public class Model {
                 for (int i = 0; i <= MrcConstants.ptKeywords.size()-1; i++) {
                     list.add(i);
                 }
-
+                builder.append(MrcConstants.ptConstantFields.PT_BOTTOM_DESCRIPTION.getField());
                 rand = new Random();
                 while (list.size() > MrcConstants.ptKeywords.size()-3) {
                     System.out.println("this.ptKeywords.size(): " + MrcConstants.ptKeywords.size());
@@ -292,7 +298,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(MrcConstants.ptConstantFields.PT_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
@@ -318,6 +324,7 @@ public class Model {
                 for (int i = 0; i <= MrcConstants.itKeywords.size()-1; i++) {
                     list.add(i);
                 }
+                builder.append(MrcConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
 
                 rand = new Random();
                 while (list.size() > MrcConstants.itKeywords.size()-3) {
@@ -331,7 +338,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(MrcConstants.itConstantFields.IT_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
@@ -356,7 +363,7 @@ public class Model {
                 for (int i = 0; i <= MrcConstants.frKeywords.size()-1; i++) {
                     list.add(i);
                 }
-
+                builder.append(MrcConstants.frConstantFields.FR_BOTTOM_DESCRIPTION.getField());
                 rand = new Random();
                 while (list.size() > MrcConstants.frKeywords.size()-3) {
                     System.out.println("this.frKeywords.size(): " + MrcConstants.frKeywords.size());
@@ -369,7 +376,7 @@ public class Model {
 
                 builder.append("\n\n");
 
-                builder.append(MrcConstants.frConstantFields.FR_BOTTOM_DESCRIPTION.getField());
+
 
                 System.out.println(builder);
 
